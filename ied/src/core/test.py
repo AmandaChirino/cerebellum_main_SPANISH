@@ -158,7 +158,7 @@ def run_single_stimulus_phase(
         place_single_image(screen, incorrect_img, incorrect_ind)
 
         if waiting and is_first_trial_p1 and not first_trial_done:
-            text_surface = reminder_font.render("Just guess the first time", True, cfg.COCO_RGB)
+            text_surface = reminder_font.render("Solo adivina la primera vez", True, cfg.COCO_RGB)
             text_rect = text_surface.get_rect(center=(screen.get_width() // 2, int(screen.get_height() * 0.1)))
             screen.blit(text_surface, text_rect)
 
