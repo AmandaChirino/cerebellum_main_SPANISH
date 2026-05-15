@@ -1,0 +1,28 @@
+# TODO
+- src/core/test.py: Modify block design based on needs.
+- src/core/test.py: Modify saved items based on needs.
+- src/core/practice.py: Modify block design based on needs.
+- src/core/practice.py: Modify saved items based on needs.
+- src/core/experiment_flow.py: Modify test flow based on needs.
+- src/utils/logger.py: Replace `[template]` with the actual task name.
+- src/utils/event_handler.py: Define the task-specific semantic meaning of option_1/2/....
+- src/utils/event_handler.py: Add more options or remove redundant options if necessary.
+- src/utils/event_handler.py: Add additional input mappings if necessary.
+- src/utils/config.py: Set `MODE` to `demo` or `actual`.
+- src/utils/config.py: Add additional instructions configurations if necessary.
+- src/utils/config.py: Add additional stimuli configurations if necessary.
+- src/utils/config.py: Add additional feedback configurations if necessary.
+- src/utils/config.py: Set `JOY_MODE` to `2` or `4`.
+- src/utils/saves.py: Replace `[template]` with the actual task name.
+- src/utils/saves.py: Add additional saved items if necessary.
+- src/utils/saves.py: Replace `[template]` with the actual project name.
+- src/utils/saves.py: Modify saved items as necessary.
+- src/utils/saves.py: Modify saved items as necessary.
+- src/utils/paths.py: Add additional paths if necessary.
+- src/utils/paths.py: Load additional instruction asset paths if necessary.
+- src/utils/paths.py: Load additional instruction asset paths if necessary.
+- src/utils/paths.py: Choose single-version or multiple-versions loader.
+- src/utils/paths.py: Load additional stimuli asset paths if necessary.
+- src/utils/paths.py: Load additional stimuli asset paths if necessary.
+- src/utils/paths.py: Choose single-version or multiple-versions loader.
+- src/utils/paths.py: Load additional feedback asset paths if necessary.

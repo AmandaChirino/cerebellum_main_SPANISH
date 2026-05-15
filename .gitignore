@@ -1,0 +1,31 @@
+# =========================
+# Virtual environment
+# =========================
+.venv/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+
+# =========================
+# macOS system files
+# =========================
+.DS_Store
+
+# =========================
+# Windows system files
+# =========================
+Thumbs.db
+
+# =========================
+# Output folders
+# Keep folder but ignore contents
+# =========================
+**/logs/*
+**/results/*
+
+# keep placeholder file so folder exists
+!**/logs/.gitkeep
+!**/results/.gitkeep

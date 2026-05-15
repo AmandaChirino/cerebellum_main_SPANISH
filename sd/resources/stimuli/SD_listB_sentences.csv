@@ -1,0 +1,100 @@
+Item,Item_original,Condition,Sentence,LastWord,original_dataset,RT_Control,RT_Patient,Gap_Cost,Selection_Criteria,number_letters,word_frequency,spelling_modified,cloze_probability,Meaningful,word_count,log_word_freq,block_order
+NA,NA,Practice,Juan se fue a la cama sin comer la,cena,NA,NA,NA,NA,NA,4,1,NA,0.8947368421,TRUE,9,NA,0
+NA,NA,Practice,"De la fermentación del jugo de uva, se obtiene",listón,NA,NA,NA,NA,NA,6,1,NA,0.9516129032258065,FALSE,9,NA,0
+NA,NA,Practice,"Para endulzar el pastel, agregó un poco más de",miel,NA,NA,NA,NA,NA,4,1,NA,0.9701492537313433,TRUE,9,NA,0
+NA,NA,Practice,A la novia se le ensució su blanco,viento,NA,NA,NA,NA,NA,6,1,NA,0.9107142857142857,FALSE,8,NA,0
+NA,NA,Practice,María nada todos los días en la,alberca,NA,NA,NA,NA,NA,7,1,NA,0.9230769231,TRUE,7,NA,0
+NA,NA,Practice,Ella se casó por dinero y no por,placer,NA,NA,NA,NA,NA,6,1,NA,0.9672131147540983,TRUE,8,NA,0
+NA,NA,Practice,La primavera era su estación favorita del,año,NA,NA,NA,NA,NA,3,1,NA,0.8307692308,TRUE,7,NA,0
+NA,NA,Practice,El perro cuida todo el tiempo la,habitación,NA,NA,NA,NA,NA,11,1,NA,0.859375,TRUE,7,NA,0
+NA,NA,Practice,"Para recuperarse de la fractura, le pusieron un",queso,NA,NA,NA,NA,NA,5,1,NA,0.8490566037735849,FALSE,8,NA,0
+45,45,Predictable,El hombre exprimió unas naranjas para hacer,jugo,NA,NA,NA,NA,NA,4,6422,NA,0.9473684210526315,TRUE,7,NA,1
+78,78,Switching,Mariana guardó la cartera y las llaves en su,departamento,NA,NA,NA,NA,NA,12,43227,NA,0.91803279,TRUE,9,NA,1
+128,128,Meaningless,"Como tenía náuseas, corrió a vomitar al",disco,NA,NA,NA,NA,NA,5,26431,NA,0.95454545,FALSE,7,NA,1
+151,151,Meaningless,La jirafa es conocida por su largo,camello,NA,NA,NA,NA,NA,7,1011,NA,0.96296296,FALSE,7,NA,1
+43,43,Predictable,Los ingredientes de la pizza hawaiana son piña y,jamón,NA,NA,NA,NA,NA,5,4145,NA,0.8636363636363636,TRUE,9,NA,1
+133,133,Meaningless,"En el trabajo, le jugaron una",faja,NA,NA,NA,NA,NA,4,1255,NA,0.82978723,FALSE,6,NA,1
+14,14,Predictable,"Para preparar las hamburguesas, necesito un kilo de",carne,NA,NA,NA,NA,NA,5,35415,NA,0.9210526315789473,TRUE,8,NA,1
+86,86,Switching,Para llegar al bosque es necesario hacer una larga,exploración,NA,NA,NA,NA,NA,11,7232,NA,0.83333333,TRUE,9,NA,1
+177,177,Meaningless,"Tenía frío en las manos, así que compró unos",barcos,NA,NA,NA,NA,NA,6,6547,NA,0.925,FALSE,9,NA,1
+115,115,Switching,"Durante la pasarela, se cayó una",lámpara,NA,NA,NA,NA,NA,7,4352,NA,0.80952381,TRUE,6,NA,1
+179,179,Meaningless,La conferencia dura alrededor de una,chiva,NA,NA,NA,NA,NA,5,360,NA,0.94444444,FALSE,6,NA,1
+30,30,Predictable,Fui a comprarle nuevas cuerdas a mi,guitarra,NA,NA,NA,NA,NA,8,9692,NA,0.8787878787878788,TRUE,7,NA,1
+29,29,Predictable,Le compré una caja de arena a mi,gato,NA,NA,NA,NA,NA,4,11741,NA,0.9743589743589743,TRUE,8,NA,1
+154,154,Meaningless,La enfermedad es fatal ya que no hay una,villa,NA,NA,NA,NA,NA,5,14337,NA,0.95555556,FALSE,9,NA,1
+93,93,Switching,"Él le pegó, en el cabello, un",moco,NA,NA,NA,NA,NA,4,999,NA,0.83018868,TRUE,7,NA,1
+132,132,Meaningless,El terrorista amenazó con lanzar la,ceja,NA,NA,NA,NA,NA,4,2274,NA,0.8974359,FALSE,6,NA,1
+111,111,Switching,Los migrantes buscaban atravesar la,selva,NA,NA,NA,NA,NA,5,10096,NA,0.88888889,TRUE,5,NA,1
+119,119,Switching,Es tan temprano que aún no sale el,tren,NA,NA,NA,NA,NA,4,17367,NA,0.96969697,TRUE,8,NA,1
+124,124,Meaningless,"En ciudades contaminadas, apenas se puede respirar el",hielo,NA,NA,NA,NA,NA,5,13391,NA,0.98214286,FALSE,8,NA,1
+126,126,Meaningless,Al joven lo arrestaron por cometer un,tractor,NA,NA,NA,NA,NA,7,819,NA,0.85106383,FALSE,7,NA,1
+144,144,Meaningless,"Teníamos mucha hambre, pero el mesero no traía la",herida,NA,NA,NA,NA,NA,6,9271,NA,0.80769231,FALSE,9,NA,1
+58,58,Predictable,Los estudiantes esperaban en el salón al,profesor,NA,NA,NA,NA,NA,8,35945,NA,0.950819672,TRUE,7,NA,1
+172,172,Meaningless,"Conduciría, pero mi coche tiene poca",lavadora,NA,NA,NA,NA,NA,8,1077,NA,0.92727273,FALSE,6,NA,1
+85,85,Switching,"En verano, se usa aire acondicionado y, en invierno, la",cobija,NA,NA,NA,NA,NA,6,1323,NA,0.82258065,TRUE,10,NA,1
+49,49,Predictable,Para entender el libro necesitas darle una segunda,leída,NA,NA,NA,NA,NA,5,1027,NA,0.8181818181818182,TRUE,8,NA,1
+50,50,Predictable,"Mientras comía, Mario se mordió accidentalmente la",lengua,NA,NA,NA,NA,NA,6,35832,NA,0.9272727272727272,TRUE,7,NA,1
+71,71,Switching,"María apuntó con el arma, pero sólo tenía una",opción,NA,NA,NA,NA,NA,6,29021,NA,0.87931034,TRUE,9,NA,1
+74,74,Switching,Es fácil reconocer a un médico porque usan,jeringas,NA,NA,NA,NA,NA,8,385,NA,0.88461538,TRUE,8,NA,1
+97,97,Switching,Todo mundo sabe que Mario es mi mejor,cocinero,NA,NA,NA,NA,NA,8,3047,NA,0.97959184,TRUE,8,NA,1
+145,145,Meaningless,"Cuando llega su dueño, el perro mueve la",cruda,NA,NA,NA,NA,NA,5,2882,NA,0.98387097,FALSE,8,NA,1
+31,31,Predictable,El payaso hizo una figura con un,globo,NA,NA,NA,NA,NA,5,4992,NA,0.9661016949152542,TRUE,7,NA,1
+20,20,Predictable,La niña sabía mucho para su,edad,NA,NA,NA,NA,NA,4,83841,NA,0.9090909090909091,TRUE,6,NA,1
+57,57,Predictable,"Para pagar su coche, Toño pidió un",préstamo,NA,NA,NA,NA,NA,8,5405,NA,0.921568627,TRUE,7,NA,1
+142,142,Meaningless,"Al pasar detrás de su perro, le piso su",ciudad,NA,NA,NA,NA,NA,6,177687,NA,0.90909091,FALSE,9,NA,1
+92,92,Switching,Compré un enjuague bucal y un,jabón,NA,NA,NA,NA,NA,5,3724,NA,0.85714286,TRUE,6,NA,1
+11,11,Predictable,Mi tía fue a la estética para pintarse el,cabello,NA,NA,NA,NA,NA,7,12777,NA,0.9787234042553191,TRUE,9,NA,1
+146,146,Meaningless,"Por falta de lluvia, el agricultor tuvo una mala",hermana,NA,NA,NA,NA,NA,7,30989,NA,0.90740741,FALSE,9,NA,1
+79,79,Switching,El ladrón le arrebató a la señora su,vida,NA,NA,NA,NA,NA,4,392433,NA,0.84126984,TRUE,8,NA,1
+63,63,Switching,"Mientras bordaba, no podía meter el hilo en la",máquina,NA,NA,NA,NA,NA,7,17491,NA,0.87096774,TRUE,9,NA,1
+120,120,Switching,El mago sacó un conejo de su,bota,NA,NA,NA,NA,NA,4,1579,NA,0.825396825,TRUE,7,NA,1
+131,131,Meaningless,Las mujeres llevan muchas cosas en su,paleta,NA,NA,NA,NA,NA,6,1660,NA,0.93333333,FALSE,7,NA,1
+41,41,Predictable,Me inscribí en una escuela de lenguas para aprender otro,idioma,NA,NA,NA,NA,NA,6,12986,NA,0.967741935483871,TRUE,10,NA,1
+18,18,Predictable,"Cuando se rompió la piñata, todos se lanzaron por los",dulces,NA,NA,NA,NA,NA,6,6628,NA,0.9782608695652174,TRUE,10,NA,1
+35,35,Predictable,La bruja maldijo a la princesa con un,hechizo,NA,NA,NA,NA,NA,7,1261,NA,0.8253968253968254,TRUE,8,NA,1
+55,55,Predictable,"Cada seis años, votamos para elegir al",presidente,NA,NA,NA,NA,NA,10,180657,NA,0.940298507,TRUE,7,NA,1
+51,51,Predictable,"Jorge no ve bien, así que usa",lentes,NA,NA,NA,NA,NA,6,4903,NA,0.9259259259259259,TRUE,7,NA,2
+169,169,Meaningless,"En vez del acelerador, María pisó el",ruido,NA,NA,NA,NA,NA,5,21799,NA,0.94871795,FALSE,7,NA,2
+106,106,Switching,El cajero del súper cuenta el,chisme,NA,NA,NA,NA,NA,6,1041,NA,0.82051282,TRUE,6,NA,2
+59,59,Predictable,La hija del rey tenía que casarse con un,príncipe,NA,NA,NA,NA,NA,8,10236,NA,0.85,TRUE,9,NA,2
+19,19,Predictable,María se cepilla los dientes tres veces al,día,NA,NA,NA,NA,NA,3,321177,NA,0.9393939393939394,TRUE,8,NA,2
+129,129,Meaningless,"En la mañana, cobré mi cheque en el",libro,NA,NA,NA,NA,NA,5,102079,NA,0.98076923,FALSE,8,NA,2
+73,73,Switching,Ella tiró el viejo papel a la,calle,NA,NA,NA,NA,NA,5,86730,NA,0.93220339,TRUE,7,NA,2
+81,81,Switching,"Su mascota desapareció, así que inició una",pelea,NA,NA,NA,NA,NA,5,10770,NA,0.91935484,TRUE,7,NA,2
+109,109,Switching,Le pidieron a Daniel que fuera el nuevo entrenador del,perro,NA,NA,NA,NA,NA,5,21223,NA,0.83333333,TRUE,10,NA,2
+39,39,Predictable,Mi mamá fue a escuchar misa a la,iglesia,NA,NA,NA,NA,NA,7,36740,NA,0.9076923076923077,TRUE,8,NA,2
+175,175,Meaningless,El boxeador dio el último,esposo,NA,NA,NA,NA,NA,6,11502,NA,0.89795918,FALSE,5,NA,2
+75,75,Switching,La mamá arrulla suavemente al,cachorro,NA,NA,NA,NA,NA,8,1391,NA,0.81481481,TRUE,5,NA,2
+94,94,Switching,"Para ver la luna, tuve que mirar hacia el",oeste,NA,NA,NA,NA,NA,5,12338,NA,0.92592593,TRUE,9,NA,2
+103,103,Switching,En esa carretera hay una peligrosa,niebla,NA,NA,NA,NA,NA,6,4725,NA,0.87719298,TRUE,6,NA,2
+147,147,Meaningless,"En la cabeza de la reina, el sacerdote colocó una",flojera,NA,NA,NA,NA,NA,7,317,NA,0.94871795,FALSE,10,NA,2
+34,34,Predictable,El panadero compró azúcar y un costal de,harina,NA,NA,NA,NA,NA,6,9582,NA,0.8490566037735849,TRUE,8,NA,2
+40,40,Predictable,Luis no se limpió la herida correctamente y desarrolló una,infección,NA,NA,NA,NA,NA,9,11627,NA,0.8615384615384616,TRUE,10,NA,2
+16,16,Predictable,La pequeña bebé se chupa el,dedo,NA,NA,NA,NA,NA,4,14564,NA,0.9180327868852459,TRUE,6,NA,2
+157,157,Meaningless,Lola gritó en las montañas y pudo escuchar el,caldo,NA,NA,NA,NA,NA,5,5704,NA,0.92063492,FALSE,9,NA,2
+91,91,Switching,"Para lavarme los dientes, tuve que comprar un nuevo",enjuague,NA,NA,NA,NA,NA,8,279,NA,0.96666667,TRUE,9,NA,2
+80,80,Switching,Mario cargó a Lupita con un solo,movimiento,NA,NA,NA,NA,NA,10,62195,NA,0.81132075,TRUE,7,NA,2
+165,165,Meaningless,Mi mamá fue a la cocina a prender la,justicia,NA,NA,NA,NA,NA,8,55821,NA,0.88333333,FALSE,9,NA,2
+69,69,Switching,"Al descubrir el cuerpo, lo arrestaron por",mentiroso,NA,NA,NA,NA,NA,9,1520,NA,0.80357143,TRUE,7,NA,2
+25,25,Predictable,Mi tía puso el ramo en un bonito,florero,NA,NA,NA,NA,NA,7,684,NA,0.9107142857142857,TRUE,8,NA,2
+150,150,Meaningless,Aflojó la corbata alrededor de su,tarjeta,NA,NA,NA,NA,NA,7,11637,NA,0.94444444,FALSE,6,NA,2
+70,70,Switching,"La humanidad quería volar, por lo que inventó el",globo,NA,NA,NA,NA,NA,5,4992,NA,0.94642857,TRUE,9,NA,2
+137,137,Meaningless,Los aviones vuelan en el,coco,NA,NA,NA,NA,NA,4,5510,NA,0.80357143,FALSE,5,NA,2
+42,42,Predictable,"Antes de comer, se lavó las manos con agua y",jabón,NA,NA,NA,NA,NA,5,3724,NA,0.9846153846153847,TRUE,10,NA,2
+101,101,Switching,Llené el tazón de mi gato con muchas,sobras,NA,NA,NA,NA,NA,6,843,NA,0.92857143,TRUE,8,NA,2
+156,156,Meaningless,El dentista le enseñó cómo lavar sus,estados,NA,NA,NA,NA,NA,7,139900,NA,0.96875,FALSE,7,NA,2
+9,9,Predictable,"Para orientarse, los exploradores usaban un mapa y una",brújula,NA,NA,NA,NA,NA,7,1452,NA,0.8939393939393939,TRUE,9,NA,2
+17,17,Predictable,Tenía mal aliento porque no se lavó los,dientes,NA,NA,NA,NA,NA,7,19331,NA,0.9818181818181818,TRUE,8,NA,2
+32,32,Predictable,"Por gritar fuerte, Diana se lastimó la",garganta,NA,NA,NA,NA,NA,8,8872,NA,0.9464285714285714,TRUE,7,NA,2
+127,127,Meaningless,"Para dormir en su carro, el taxista reclinó su",gallina,NA,NA,NA,NA,NA,7,3900,NA,0.94117647,FALSE,9,NA,2
+166,166,Meaningless,Juan lleva todo el día formado en la,fruta,NA,NA,NA,NA,NA,5,9176,NA,0.9516129,FALSE,8,NA,2
+7,7,Predictable,"En la noche, fui a la cuna a revisar al",bebé,NA,NA,NA,NA,NA,4,15773,NA,0.9736842105263158,TRUE,10,NA,2
+1,1,Predictable,Mi mamá cose con hilo y una,aguja,NA,NA,NA,NA,NA,5,3238,NA,0.9354838709677419,TRUE,7,NA,2
+98,98,Switching,El niño calculó la circunferencia del,patio,NA,NA,NA,NA,NA,5,18388,NA,0.85714286,TRUE,6,NA,2
+136,136,Meaningless,Óscar se despierta y siempre tiende su,uña,NA,NA,NA,NA,NA,3,1522,NA,0.91836735,FALSE,7,NA,2
+113,113,Switching,A mi hermana se le ocurrió una maravillosa,melodía,NA,NA,NA,NA,NA,7,4240,NA,0.94642857,TRUE,8,NA,2
+114,114,Switching,El limpiador profesional no pudo remover las,caries,NA,NA,NA,NA,NA,6,1499,NA,0.81818182,TRUE,7,NA,2
+135,135,Meaningless,Pedí una quesadilla de flor de,rasguño,NA,NA,NA,NA,NA,7,739,NA,0.89473684,FALSE,6,NA,2
+139,139,Meaningless,"Para el viaje, sólo llevé a cuatro personas en mi",suelo,NA,NA,NA,NA,NA,5,57098,NA,0.81132075,FALSE,10,NA,2
+64,64,Switching,El águila real extendió sus enormes,garras,NA,NA,NA,NA,NA,6,2051,NA,0.98360656,TRUE,6,NA,2
+158,158,Meaningless,La comida está muy picosa porque tiene mucho,puente,NA,NA,NA,NA,NA,6,16490,NA,0.838709677,FALSE,8,NA,2
