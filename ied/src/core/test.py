@@ -158,7 +158,7 @@ def run_single_stimulus_phase(
         place_single_image(screen, incorrect_img, incorrect_ind)
 
         if waiting and is_first_trial_p1 and not first_trial_done:
-            text_surface = reminder_font.render("Solo adivina la primera vez", True, cfg.COCO_RGB)
+            text_surface = reminder_font.render("La primera vez solo tienes que adivinar", True, cfg.COCO_RGB)
             text_rect = text_surface.get_rect(center=(screen.get_width() // 2, int(screen.get_height() * 0.1)))
             screen.blit(text_surface, text_rect)
 
@@ -167,9 +167,9 @@ def run_single_stimulus_phase(
         if show_first_trial_feedback:
             show_feedback(screen, first_trial_correct)
             if first_trial_correct:
-                msg = "Good, now keep on trying to get it correct."
+                msg = "Bien hecho, sigue adelante."
             else:
-                msg = "Bad luck, now try to get it correct."
+                msg = "Mala suerte, ahora intenta acertar."
             text_surface = reminder_font.render(msg, True, cfg.COCO_RGB)
             text_rect = text_surface.get_rect(center=(screen.get_width() // 2, int(screen.get_height() * 0.1)))
             screen.blit(text_surface, text_rect)
