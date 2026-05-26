@@ -167,9 +167,9 @@ def run_single_stimulus_phase(
         if show_first_trial_feedback:
             show_feedback(screen, first_trial_correct)
             if first_trial_correct:
-                msg = "Good, now keep on trying to get it correct."
+                msg = "Bien hecho, sigue adelante."
             else:
-                msg = "Bad luck, now try to get it correct."
+                msg = "Mala suerte, ahora intenta acertar."
             text_surface = reminder_font.render(msg, True, cfg.COCO_RGB)
             text_rect = text_surface.get_rect(center=(screen.get_width() // 2, int(screen.get_height() * 0.1)))
             screen.blit(text_surface, text_rect)
@@ -187,7 +187,7 @@ def run_single_stimulus_phase(
         elif feedback_is_correct is not None:
             if not feedback_is_correct and now < fe_feedback_until:
                 show_feedback(screen, feedback_is_correct)
-                text_surface = reminder_font.render("Remember, the rule will change", True, cfg.COCO_RGB)
+                text_surface = reminder_font.render("Recuerda, la regla va a cambiar", True, cfg.COCO_RGB)
                 text_rect = text_surface.get_rect(center=(screen.get_width() // 2, int(screen.get_height() * 0.1)))
                 screen.blit(text_surface, text_rect)
                 show_fe_fb = False
