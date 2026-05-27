@@ -1,0 +1,345 @@
+Sentence,LastWord,correct_response,word_frequency,Meaningful,Predictability,spelling_modified,cloze_probability,original_dataset,CoRT_mean,CoRT_std,word_count,group,Item,Block,Condition
+In the evening grandpa smokes using his,pipe,j,1,TRUE,high ,no,0.96,peele,4.4,0.547722558,7,P,1,0,Practice
+When she lost her doll the girl began to,holler,j,1,TRUE,high ,no,0.84,peele,4.333333333,0.816496581,9,P,2,0,Practice
+The committed scientist spent hours working in the,formula,j,1,TRUE,high ,no,0.88,peele,4,0.816496581,8,P,3,0,Practice
+She made herself a sandwich and chips for,lunch,j,1,TRUE,high ,no,0.9,block_baldwin,4.142857143,1.214985793,8,P,4,0,Practice
+The teacher wrote the problem on the,game,f,1,FALSE,high ,no,0.94,block_baldwin,4.142857143,1.463850109,7,P,5,0,Practice
+The janitor accidentally spilled some water on the,moon,f,1,FALSE,high ,no,0.88,block_baldwin,4.142857143,1.463850109,8,P,6,0,Practice
+The crime rate has gone up this,banana,f,1,FALSE,high ,no,0.81,block_baldwin,1.142857143,0.377964473,7,P,7,0,Practice
+The diving board was scary because it was so,beige,f,1,FALSE,high ,no,0.82,block_baldwin,1.857142857,1.573591585,9,P,8,0,Practice
+The couple's trip was ruined when it began to,rain,j,1,TRUE,high ,no,0.85,peele,2,0.707106781,9,P,9,0,Practice
+Karla had played the game and knew how to,stratigize,j,1,TRUE,high ,no,0.87,peele,1.8,1.303840481,9,P,10,0,Practice
+Sharon majored in Education to learn how to,teach,j,1,TRUE,high ,no,0.95,peele,1,0,8,P,11,0,Practice
+The boxer knew that tonight he had to,succeed,j,1,TRUE,high ,no,0.86,peele,2,1,8,P,12,0,Practice
+Everyone on the cruise gasped and pointed out the massive,war,f,1,FALSE,low ,no,0.49,peele,4.8,0.447213596,10,P,13,0,Practice
+Andrea watered her garden with a small,bear,f,1,FALSE,low ,no,0.45,peele,4.4,0.894427191,7,P,14,0,Practice
+The dog was lonely without companions and started to,whine,j,1,TRUE,low ,no,0.39,peele,4,1.224744871,9,P,15,0,Practice
+Tommy was angry at his mom and started to,yell,j,1,TRUE,low ,no,0.45,peele,4,1.264911064,9,P,16,0,Practice
+The passengers feared capsizing when the ship began to,rock,j,1,TRUE,low ,no,0.36,peele,4.2,0.836660027,9,P,17,0,Practice
+Visitors at the medieval festival drank honey,mead,j,1,TRUE,low ,no,0.35,peele,4,1.154700538,7,P,18,0,Practice
+"To finish seasoning the salmon, Marge needed",land,f,1,FALSE,low ,no,0.32,peele,2,1.224744871,7,P,19,0,Practice
+Isaac didn't know what her behavior could,view,f,1,FALSE,low ,no,0.48,peele,1.25,0.5,7,P,20,0,Practice
+Timothy was hesitant when he had to make a,decision,j,1,TRUE,low ,no,0.4,peele,1.25,0.5,9,P,21,0,Practice
+Yolanda wants a great job so she can get,rich,j,1,TRUE,low ,no,0.37,peele,1.8,1.788854382,9,P,22,0,Practice
+Malcolm wanted to tidy the lawn but had no,mower,j,1,TRUE,low ,no,0.33,peele,1.75,0.5,9,P,23,0,Practice
+The young woman had a very recognizable,face,j,1,TRUE,low ,no,0.44,peele,1.6,0.894427191,7,P,24,0,Practice
+Helen removed the paint from her face with a,cloth,j,9800556,TRUE,low ,no,0.33,peele,4.8,0.447213596,9,LH,164,1,Predictable
+"After returning to his bedroom, the monk removed his",sandals,j,5032531,TRUE,low ,no,0.5,peele,4.8,0.447213596,9,LL,223,1,Switching
+Clay refused to settle down and buy his own,sky,f,27432921,FALSE,low ,no,0.47,peele,1.8,0.836660027,9,L,325,1,Meaningless
+Charles dunked the basketball through the,hoop,j,2314616,TRUE,high ,no,0.87,block_baldwin,4.4,1.5,6,HH,31,1,Predictable
+The expensive tie was made of,silk,j,13137405,TRUE,high ,no,0.89,block_baldwin,1,0,6,HH,80,1,Predictable
+Katie put the flowers in an expensive,vase,j,4098928,TRUE,high ,no,0.93,block_baldwin,4.0,1.4,7,HH,43,1,Predictable
+"After raking the yard, Pat jumped into the pile of",leaves,j,22697689,TRUE,high ,no,0.92,block_baldwin,4.6,0.8,10,HH,40,1,Predictable
+The rambunctious dog pulled and tugged against the,tack,f,2549806,FALSE,low ,no,0.49,peele,5,0,8,L,305,1,Meaningless
+I had no key to open the locked,loss,f,83845349,FALSE,high ,no,0.89,block_baldwin,2,1.154700538,8,H,287,1,Meaningless
+Kyle carefully scooped the honey out of the,bowl,j,22253866,TRUE,low ,no,0.5,peele,4.6,0.547722558,8,LL,207,1,Switching
+The dog ran inside just before it started to,poop,j,1589025,TRUE,high ,no,0.82,peele,4.2,0.836660027,9,HL,95,1,Switching
+Don didn't tell Carmen secrets because she liked to,gossip,j,5797559,TRUE,low ,no,0.49,peele,1.75,0.957427108,9,LH,195,1,Predictable
+Barb pulled her sleeve back to reveal a big,bruise,j,384376,TRUE,low ,no,0.39,peele,4.5,0.577350269,9,LH,154,1,Predictable
+"When the building came down, there was a loud",crash,j,15362084,TRUE,low ,no,0.49,peele,4.25,0.5,9,LH,165,1,Predictable
+He loosened the tie around his,neck,j,17397122,TRUE,high ,no,0.97,block_baldwin,4.4,1.5,6,HH,30,1,Predictable
+"After his divorce, my neighbor was a lonely",fellow,j,16585215,TRUE,low ,yes,0.46,peele,2,1.224744871,8,LL,261,1,Switching
+Sally heard that our new teacher was impossible to,satisfy,j,9051799,TRUE,low ,no,0.48,peele,1.2,0.447213596,9,LL,252,1,Switching
+"After weeks at sea, the bottle washed up onto the",rocks,j,12463155,TRUE,high ,yes,0.83,peele,4,0.816496581,10,HL,112,1,Switching
+Alexis was embarrassed by her child's behavior in,space,f,124198695,FALSE,low ,no,0.36,peele,1.6,0.894427191,8,L,336,1,Meaningless
+The car was similar but it was a different,size,j,217856550,TRUE,low ,no,0.4,peele,1.4,0.894427191,9,LL,249,1,Switching
+The teacher was afraid of germs and getting,infected,j,8374010,TRUE,high ,no,0.92,peele,1.8,1.303840481,8,HL,117,1,Switching
+Mary was upset when she spilled coffee on her favorite,laptop,j,31980198,TRUE,low ,yes,0.35,peele,4.75,0.5,10,LL,232,1,Switching
+The woman applied concealer with a gentle,touch,j,36981573,TRUE,low ,no,0.35,peele,4.8,0.447213596,7,LH,163,1,Predictable
+She preheated the oven and greased the,pan,j,21926890,TRUE,high ,no,0.9,block_baldwin,4.3,1.5,7,HH,49,1,Predictable
+It is painful to have diseases like,alcoholism,j,2070228,TRUE,low ,no,0.36,peele,1,0,7,LL,248,1,Switching
+"In class, Paula took out her notebook and",wrote,j,56756180,TRUE,low ,no,0.42,peele,4.8,0.447213596,8,LH,169,1,Predictable
+The book was a steal at such a low,price,j,566617666,TRUE,high ,no,0.89,block_baldwin,1.142857143,0.377964473,9,HH,73,1,Predictable
+"Distracted while driving, Maya got stuck in the sticky",swamp,j,2578132,TRUE,low ,no,0.46,peele,4,1.224744871,9,LL,219,1,Switching
+"Instead of buying a new phone, Shannon replaced the",urine,f,4911445,FALSE,low ,no,0.36,peele,4.25,0.5,9,L,306,1,Meaningless
+The young man quickly pulled the sword from the,rack,j,14592664,TRUE,low ,no,0.39,peele,4.5,1,9,LL,229,1,Switching
+Don't believe everything you,hear,j,47745287,TRUE,high ,no,0.82,block_baldwin,1.571428571,1.133893419,4,HH,56,1,Predictable
+Her new shoes were the wrong,size,j,217856550,TRUE,high ,no,0.91,block_baldwin,1.428571429,1.133893419,6,HH,66,1,Predictable
+The impatient man kept glancing at his,song,f,66581052,FALSE,high ,no,0.94,peele,4,0.816496581,7,H,272,1,Meaningless
+Kelly believed that everything was determined by,looks,j,44159268,TRUE,high ,no,0.83,peele,1.75,0.957427108,7,HL,140,1,Switching
+Not even the cast liked the,chalk,f,2501856,FALSE,low ,no,0.36,block_baldwin,1.833333333,1.602081979,6,L,344,1,Meaningless
+Everyone ran from the man like he was a,monster,j,17670602,TRUE,low ,no,0.31,peele,4.8,0.447213596,9,LH,152,1,Predictable
+"To enter the castle, she rode across a",bridge,j,35345740,TRUE,low ,yes,0.4,peele,4.5,0.577350269,8,LH,145,1,Predictable
+"When it's warm out, Jack likes going to the",beach,j,106978150,TRUE,low ,no,0.42,peele,1.6,0.894427191,9,LH,193,1,Predictable
+One must take time out of every day to,read,j,340892856,TRUE,low ,no,0.36,peele,1,0,9,LL,235,1,Switching
+Elle got behind the stalled car and began to,panic,j,6412649,TRUE,high ,no,0.87,peele,4.5,0.577350269,9,HL,110,1,Switching
+"Everyday during recess, the children would play",tag,j,32551647,TRUE,low ,no,0.41,peele,4,1.224744871,7,LH,155,1,Predictable
+"Lately, Sam has felt like he is in a",cage,j,6368489,TRUE,low ,no,0.43,peele,1.8,0.836660027,9,LL,250,1,Switching
+Jim convinced her that it was a bad prank to,call,j,202950880,TRUE,low ,no,0.43,peele,1.75,0.5,10,LL,242,1,Switching
+The villagers lived their lives as simple,men,j,177706929,TRUE,low ,no,0.4,peele,2,1,7,LL,262,1,Switching
+"In the courtroom, the defendant was silenced by the",apple,f,50913495,FALSE,high ,no,0.85,peele,4,1,9,H,274,1,Meaningless
+The shape of the woman's crystal ball was,round,j,62452044,TRUE,high ,no,0.82,block_baldwin,1.428571429,1.133893419,8,HH,75,1,Predictable
+Dean dropped the cookies and had to make a fresh,plate,j,24383742,TRUE,high ,no,0.95,peele,4.8,0.447213596,10,HL,93,1,Switching
+The pirates escaped with a large bag of,gold,j,109360096,TRUE,low ,no,0.44,peele,4.75,0.5,8,LH,151,1,Predictable
+They believe the most pious man is the,leader,j,39832721,TRUE,low ,no,0.38,peele,2,1.414213562,8,LL,263,1,Switching
+Jenny lit the candles on the birthday,bath,f,30641959,FALSE,high ,no,0.94,block_baldwin,4.285714286,1.496026483,7,H,278,1,Meaningless
+The dog chased our cat up the,accomplice,f,316384,FALSE,low ,no,0.43,block_baldwin,4.166666667,1.602081979,7,L,323,1,Meaningless
+Jake hated the game and thought it wasn't,fair,j,49969150,TRUE,low ,yes,0.44,peele,1.4,0.547722558,9,LH,197,1,Predictable
+Quinn was surprised that Mariah didn't believe in,god,j,115504667,TRUE,low ,no,0.43,peele,1.8,0.836660027,8,LH,186,1,Predictable
+Suzy saw a sign that said babysitter for,weekends,j,9954499,TRUE,high ,no,0.88,peele,1.75,1.5,8,HL,139,1,Switching
+Andrew's favorite type of fruit is the,melon,j,1356086,TRUE,low ,no,0.31,peele,1.666666667,0.577350269,7,LL,256,1,Switching
+The gym class knew the rope would be a,shell,f,20660846,FALSE,low ,no,0.26,block_baldwin,1.166666667,0.408248291,9,L,343,1,Meaningless
+The boy screamed after he was stung by a,tone,f,17489966,FALSE,high ,no,0.81,peele,4.2,0.836660027,9,H,265,1,Meaningless
+The cardinals wondered which of them would become the,coffe,f,253930,FALSE,low ,no,0.5,peele,1.5,0.577350269,9,L,338,1,Meaningless
+For a small horse she has a very long,tail,j,10595050,TRUE,low ,no,0.47,peele,1.8,1.303840481,9,LH,189,1,Predictable
+Chris said his dog had always been his best,pal,j,10016948,TRUE,high ,no,0.95,peele,1.75,1.5,9,HL,128,1,Switching
+Ian's favorite pie was either apple or,bag,f,40976633,FALSE,low ,no,0.43,peele,1.25,0.5,7,L,328,1,Meaningless
+"As he left, the insulted man made a",gesture,j,2213452,TRUE,low ,no,0.4,peele,4.8,0.447213596,8,LH,159,1,Predictable
+Paulina gave the huge lollipop a big,bite,j,6067411,TRUE,high ,no,0.88,peele,4,1.154700538,7,HL,107,1,Switching
+The farmer ran out of bacon and slaughtered the,chickens,j,2227826,TRUE,high ,no,0.88,peele,4,0.816496581,9,HL,87,1,Switching
+The maid dusted the books on the,shelf,j,11330977,TRUE,high ,no,0.93,block_baldwin,4.1,1.6,7,HH,53,2,Predictable
+The British businessman was the wealthiest in the whole,country,j,192535750,TRUE,low ,no,0.36,peele,1,0,9,LH,198,2,Predictable
+The captain steered the ship and narrowly avoided the,reefs,j,1554815,TRUE,low ,no,0.34,peele,4.75,0.5,9,LL,213,2,Switching
+Drivers should keep your eyes on the,road,j,134754203,TRUE,high ,yes,0.92,block_baldwin,1.857142857,0.899735411,7,HH,67,2,Predictable
+The screaming little girl made the sitter very,purple,f,15944693,FALSE,low ,no,0.33,peele,4.2,0.836660027,8,L,310,2,Meaningless
+"John felt sorry, but it was not his",eat,f,29344419,FALSE,high ,no,0.91,block_baldwin,1.714285714,1.496026483,8,H,289,2,Meaningless
+The toddler jumped but the jar was out of,sight,j,13401764,TRUE,high ,no,0.82,peele,4.6,0.547722558,9,HL,100,2,Switching
+Jane fried some bacon in the,pan,j,21926890,TRUE,high ,no,0.86,block_baldwin,4.1,1.5,6,HH,44,2,Predictable
+He blew out his cigarette smoke in a small,curl,j,3664177,TRUE,low ,no,0.34,peele,4.75,0.5,9,LL,210,2,Switching
+The tourists enjoyed looking at the scenic,tool,f,65453403,FALSE,low ,no,0.39,peele,1.75,0.957427108,7,L,326,2,Meaningless
+There was nothing to do once the fuse was,started,j,78817488,TRUE,low ,no,0.39,peele,1.8,1.095445115,9,LL,259,2,Switching
+The potatoes were seasoned with flakes of rosemary and,thyme,j,1008871,TRUE,low ,no,0.35,peele,2,1.414213562,9,LH,199,2,Predictable
+"An almond is a type of seed, not a",bean,j,8867484,TRUE,high ,no,0.87,peele,1.5,1,9,HL,116,2,Switching
+His boss refused to give him a,bark,f,3564344,FALSE,high ,no,0.87,block_baldwin,1.857142857,0.690065559,7,H,301,2,Meaningless
+"Distracted while driving, Maya got stuck in the sticky",mud,j,5923389,TRUE,low ,no,0.46,peele,4,1.224744871,9,LH,149,2,Predictable
+Bill jumped in the lake and made a big,garbage,f,6620754,FALSE,high ,no,0.92,block_baldwin,4.857142857,0.377964473,9,H,277,2,Meaningless
+The landlord did not like when the rent was,boring,f,6610108,FALSE,high ,no,0.8,block_baldwin,2,1.414213562,9,H,295,2,Meaningless
+During the holidays it is very expensive to book a,snake,f,7615672,FALSE,high ,yes,0.81,block_baldwin,1.857142857,0.899735411,10,H,288,2,Meaningless
+Steven had been raised believing that lying was a,crime,j,40638766,TRUE,high ,no,0.91,peele,2,0.816496581,9,HL,136,2,Switching
+"As a clumsy toddler, Serena often spilled her",water,j,219190105,TRUE,low ,yes,0.34,peele,4.2,0.836660027,7,LL,231,2,Switching
+The farmer spends the morning milking his,act,f,144298238,FALSE,high ,yes,0.94,block_baldwin,4.285714286,1.496026483,7,H,281,2,Meaningless
+All the professional athlete wanted was a back,rub,j,3435844,TRUE,low ,no,0.38,peele,2,1,8,LH,177,2,Predictable
+The cargo at the shipyard fell with a loud,bang,j,17654589,TRUE,low ,no,0.33,peele,4,0,9,LH,170,2,Predictable
+"After receiving bad news, the patient began to",stay,f,81652767,FALSE,high ,no,0.83,peele,4.166666667,0.98319208,8,H,266,2,Meaningless
+Ollie was tired of the radio playing the same,way,j,49747608,TRUE,high ,no,0.84,peele,1.75,0.957427108,9,HL,127,2,Switching
+All the gym trainers were in great shape and,snack,f,3851856,FALSE,low ,no,0.36,peele,2,1.414213562,9,L,340,2,Meaningless
+"Over the summer, the boys went swimming in the",lagoon,j,2696984,TRUE,low ,yes,0.5,peele,4.4,0.547722558,9,LL,230,2,Switching
+Chocolate is made from the roasted cacao,seeds,j,11239247,TRUE,high ,no,0.84,peele,1.8,0.447213596,7,HL,125,2,Switching
+The thief ran by and snatched the lady's,purse,j,5500366,TRUE,high ,no,0.87,block_baldwin,4.4,1.5,8,HH,32,2,Predictable
+"After hitting the iceberg, the ship began to",sink,j,8133475,TRUE,high ,no,0.96,block_baldwin,4.0,1.2,8,HH,47,2,Predictable
+She did not have the right key for the,lock,j,22316965,TRUE,low ,no,0.44,block_baldwin,1.166666667,0.408248291,9,LH,201,2,Predictable
+It is difficult for any large business to,succeed,j,7613901,TRUE,low ,no,0.33,peele,1.6,1.341640786,8,LH,194,2,Predictable
+The cop entered the building and showed his,tour,f,75960822,FALSE,high ,no,0.92,peele,4.25,0.5,8,H,270,2,Meaningless
+When the alarm rang the firefighter slid down the,pole,j,9405746,TRUE,high ,no,0.94,block_baldwin,4.4,1.5,9,HH,25,2,Predictable
+She washed the dirty dishes in the,sink,j,8133475,TRUE,high ,no,0.92,block_baldwin,4.0,1.4,7,HH,51,2,Predictable
+"The simple, fun camp game soon escalated into a",disaster,j,17246004,TRUE,low ,no,0.5,peele,4.4,0.547722558,9,LL,209,2,Switching
+Claire claimed motherhood was the hardest job she ever,accomplished,j,7945868,TRUE,high ,no,0.82,peele,1.6,0.894427191,9,HL,131,2,Switching
+The lecture should last about one,hour,j,72603888,TRUE,high ,no,0.91,block_baldwin,1,0,6,HH,70,2,Predictable
+"For a runner, Ted is rather",wrong,f,49698346,FALSE,low ,yes,0.5,block_baldwin,1.833333333,1.169045194,6,L,342,2,Meaningless
+Bradley prefers cats over,second,f,161913408,FALSE,high ,no,0.91,block_baldwin,1.142857143,0.377964473,4,H,292,2,Meaningless
+Nicola walked towards the lake till she hit the,dandelion,f,536736,FALSE,low ,no,0.44,peele,4,1.414213562,9,L,320,2,Meaningless
+The librarian sternly told us to be,quiet,j,16787246,TRUE,high ,no,0.8,block_baldwin,4.0,0.6,7,HH,52,2,Predictable
+Our walk was illuminated by the light of the,sun,j,123311561,TRUE,high ,no,0.84,peele,2,1.414213562,9,HL,138,2,Switching
+Karen realized she had stepped in a pile of,trash,j,7109005,TRUE,low ,no,0.49,peele,4.6,0.547722558,9,LL,224,2,Switching
+Although Keith bowled well he did not have the highest,score,j,69946284,TRUE,high ,no,0.94,block_baldwin,2,1.154700538,10,HH,55,2,Predictable
+"When Jen showed the treat, Maggie's tail began to",hold,f,64197954,FALSE,high ,no,0.96,peele,4,0.816496581,9,H,267,2,Meaningless
+"Before descending the canyon, we hiked the",trail,j,23724057,TRUE,low ,yes,0.41,peele,4,1.154700538,7,LH,157,2,Predictable
+John swept the floor with a,broom,j,1313376,TRUE,high ,no,0.9,block_baldwin,4.1,1.6,6,HH,50,2,Predictable
+"As a clumsy toddler, Serena often spilled her",milk,j,21054967,TRUE,low ,yes,0.34,peele,4.2,0.836660027,7,LH,153,2,Predictable
+The girls drew beautiful designs on the street with,pride,j,14513169,TRUE,high ,yes,0.83,peele,4,1.414213562,9,HL,106,2,Switching
+"Exiting the pool, the children were so cold they",changed,j,45905830,TRUE,high ,no,0.87,peele,4.4,0.547722558,9,HL,108,2,Switching
+The rowdy player was ejected after a nasty,study,f,156845267,FALSE,low ,no,0.46,peele,4,0,8,L,315,2,Meaningless
+The man liked to play his music too,loud,j,8674671,TRUE,high ,no,0.84,block_baldwin,2,1,8,HH,77,2,Predictable
+The woman's earring was a small silver,hoop,j,2314616,TRUE,low ,no,0.32,peele,1.8,1.095445115,7,LH,179,2,Predictable
+"To prevent football injury, all players must wear shoulder",mistake,f,10869967,FALSE,high ,no,0.96,block_baldwin,1.571428571,0.975900073,9,H,294,2,Meaningless
+The gentleman on the bus offered the child his,snack,j,3851856,TRUE,high ,no,0.9,peele,4.25,0.957427108,9,HL,104,2,Switching
+The reckless driver drove too quickly around the,sign,j,247541986,TRUE,high ,no,0.95,block_baldwin,4.3,1.5,6,HH,36,2,Predictable
+Wade spotted the incoming ball and was able to,run,j,119294241,TRUE,low ,no,0.36,peele,4.5,0.577350269,9,LL,227,2,Switching
+The directions did not match any roads on the,anger,f,8002746,FALSE,high ,no,0.85,block_baldwin,1.428571429,0.534522484,9,H,304,2,Meaningless
+Her left hand was freezing after she lost her,jacket,j,17293223,TRUE,high ,no,0.8,peele,4.4,0.547722558,9,HL,96,2,Switching
+For breakfast Jim wanted bacon and,eggs,j,10916104,TRUE,high ,no,0.91,block_baldwin,1.428571429,0.786795793,6,HH,61,2,Predictable
+They broke into the store and began to,search,j,1518266684,TRUE,low ,no,0.42,peele,4.6,0.547722558,8,LL,214,2,Switching
+"After saying goodbye, Tim gave his wife a quick",shave,f,2583608,FALSE,high ,no,0.84,peele,4.75,0.5,9,H,275,2,Meaningless
+"To avoid hitting her head, she had to",jump,j,44429644,TRUE,high ,no,0.85,peele,4.5,0.577350269,8,HL,90,2,Switching
+"As Jill felt the sharp pain, she began to",pant,j,3142553,TRUE,low ,no,0.46,peele,4.6,0.547722558,9,LL,222,3,Switching
+The princess was pulled onto the horse by the,servant,j,4463451,TRUE,low ,no,0.37,peele,4.4,0.894427191,9,LL,205,3,Switching
+"Before placing each brick, he applied a glob of",plaster,j,1812605,TRUE,low ,yes,0.46,peele,4.666666667,0.577350269,9,LL,215,3,Switching
+George must keep his pet on a,leash,j,1311597,TRUE,high ,no,0.9,block_baldwin,1.714285714,0.755928946,7,HH,64,3,Predictable
+"While trying to lift the box, Jeffrey pulled his",back,j,562206804,TRUE,low ,no,0.39,peele,4.4,0.894427191,9,LH,161,3,Predictable
+"While preparing the meal, the chef couldn't find his",zoo,f,11638517,FALSE,low ,no,0.41,peele,4,0.707106781,9,L,314,3,Meaningless
+Incredibly poor food service is my pet,peeve,j,213863,TRUE,high ,no,0.96,peele,1.4,0.894427191,7,HH,84,3,Predictable
+I could not remember his,name,j,520585287,TRUE,high ,no,0.92,block_baldwin,1,0,5,HH,62,3,Predictable
+A gas lamp is always a good source of,illumination,j,,TRUE,high ,no,0.89,peele,1.75,0.957427108,9,HL,143,3,Switching
+The evil witch eyed the young princess with a,glance,j,15644603,TRUE,low ,no,0.31,peele,4.4,0.894427191,9,LL,220,3,Switching
+Jan dropped the lightbulb and it cracked near the,sore,f,3335983,FALSE,low ,no,0.47,peele,4,0,9,L,313,3,Meaningless
+The building isn't for sale but it's available to,kill,f,24970551,FALSE,high ,no,0.81,peele,1.25,0.5,9,H,285,3,Meaningless
+The beautiful woman in the story turned into a,cloth,f,9800556,FALSE,low ,no,0.44,peele,4,1.264911064,9,L,312,3,Meaningless
+The dessert was so good it was hard to,reject,j,6382635,TRUE,low ,no,0.41,peele,2,0.707106781,9,LL,244,3,Switching
+At last the time for action had,come,j,158281269,TRUE,high ,no,0.84,block_baldwin,2,1.154700538,7,HH,69,3,Predictable
+A black European crow is sometimes called a,raven,j,4635211,TRUE,low ,no,0.42,peele,1.5,1,8,LH,185,3,Predictable
+The castle was protected by its stone,fans,f,29390369,FALSE,high ,no,0.86,block_baldwin,1.142857143,0.377964473,7,H,286,3,Meaningless
+She threw away the old paper in the,trash,j,7109005,TRUE,high ,no,0.89,block_baldwin,4.1,1.5,8,HH,33,3,Predictable
+Frank read by the fireplace while his grandmother,dripped,f,154308,FALSE,low ,no,0.4,peele,4.4,0.894427191,8,L,308,3,Meaningless
+At recess the younger children usually play,alone,j,39699360,TRUE,low ,no,0.42,peele,4.2,0.836660027,7,LL,206,3,Switching
+The store employees knew it was illegal to,steal,j,6267924,TRUE,high ,no,0.87,block_baldwin,1.714285714,1.496026483,8,HH,81,3,Predictable
+France is a country that is famous for,wine,j,58933430,TRUE,low ,no,0.31,peele,2,1.732050808,8,LH,180,3,Predictable
+A large stone blocked the entrance to the,cave,j,7694814,TRUE,low ,no,0.36,block_baldwin,1.666666667,1.032795559,8,LH,203,3,Predictable
+The infant cried when she got stung by a,die,f,46929581,FALSE,high ,no,0.9,peele,4.2,1.303840481,9,H,276,3,Meaningless
+The baby bird was ready to learn to,drive,f,109504766,FALSE,high ,no,0.91,block_baldwin,2,0.577350269,8,H,299,3,Meaningless
+It was announced that the two companies would,compete,j,9274206,TRUE,high ,yes,0.96,peele,1.25,0.5,9,HL,122,3,Switching
+April ran her errands during her lunch,kit,f,60666200,FALSE,high ,no,0.86,block_baldwin,4,0.816496581,7,H,284,3,Meaningless
+"During the earthquake, many of the small buildings",shook,j,2920975,TRUE,low ,no,0.39,peele,4,0,8,LL,208,3,Switching
+"When the two met, one of them held out his",hand,j,123595776,TRUE,high ,no,0.95,block_baldwin,4.0,1.0,10,HH,27,3,Predictable
+He had a long day and was in a bad,bake,f,3793474,FALSE,high ,no,0.95,block_baldwin,1.857142857,1.573591585,10,H,293,3,Meaningless
+Drake didn't like barbecued meat because of the,calories,j,4769062,TRUE,low ,yes,0.37,peele,1.75,0.5,8,LL,257,3,Switching
+Daniel was upset that his basketball team didn't,compete,j,9274206,TRUE,high ,no,0.91,peele,2,0.707106781,8,HL,137,3,Switching
+"The toddler enjoyed feeding bread to the fat, white",duck,j,8296662,TRUE,low ,no,0.5,peele,4.5,0.577350269,9,LH,147,3,Predictable
+The crowd became rowdy after drinking too much sweet,bourbon,j,1478336,TRUE,low ,no,0.32,peele,4.6,0.547722558,9,LL,218,3,Switching
+There is a bit of cyanide in each apple,cap,f,25572791,FALSE,low ,no,0.48,peele,2,1.414213562,9,L,327,3,Meaningless
+"Married to a duchess, Max earned the title of",earl,j,7098366,TRUE,high ,no,0.88,peele,1.6,0.547722558,9,HL,118,3,Switching
+To cook a meal you will surely need a,cat,f,46983244,FALSE,low ,no,0.44,peele,1.75,0.957427108,9,L,333,3,Meaningless
+The car suddenly appeared and Liz wasn't able to,heal,f,3780114,FALSE,low ,no,0.35,peele,4.333333333,0.51639778,9,L,316,3,Meaningless
+There was not room for the triplets in the,pram,j,579574,TRUE,low ,no,0.34,peele,2,0.816496581,9,LL,241,3,Switching
+"After driving over sharp glass, Ronald had a flat",tire,j,9208689,TRUE,high ,no,1,peele,4.4,0.894427191,9,HH,54,3,Predictable
+A nearby woman sprayed the robber with,perfume,j,25560925,TRUE,high ,no,0.8,peele,4,0.707106781,7,HL,111,3,Switching
+Winston's prized chess set was missing a,piece,j,44670729,TRUE,low ,no,0.43,peele,1.6,0.547722558,7,LH,175,3,Predictable
+"According to the Bible, murder is a",evil,j,232251956,TRUE,high ,no,0.96,peele,2,0.816496581,7,HL,120,3,Switching
+The doctor's suitcase was worn and obviously very,old,j,204486977,TRUE,high ,no,0.89,block_baldwin,1.714285714,1.496026483,8,HH,76,3,Predictable
+Her baby was not ready to leave the,home,j,2275595356,TRUE,low ,no,0.32,peele,1.75,0.957427108,8,LL,260,3,Switching
+The little girl tripped and immediately began to,bleed,j,1991022,TRUE,high ,no,0.9,peele,4.5,0.836660027,8,HL,101,3,Switching
+Marcus struggled to build a birdhouse even with the,instructions,j,50819909,TRUE,low ,no,0.39,peele,4.8,0.447213596,9,LH,146,3,Predictable
+Weddings bring out excitement and general feelings of,joy,j,16371249,TRUE,low ,no,0.34,peele,1.166666667,0.408248291,8,LH,182,3,Predictable
+Stacy was not careful and spilled wine on her,purse,j,5500366,TRUE,low ,no,0.44,peele,4,1.414213562,9,LL,225,3,Switching
+The officer barged in and quickly flashed his,flashlight,j,2390404,TRUE,high ,no,0.81,peele,4.75,0.5,8,HL,94,3,Switching
+The excited crowd of people quickly formed a,sauce,f,10992630,FALSE,low ,no,0.35,peele,4,0,8,L,318,3,Meaningless
+The candles smelled even better when they were,punished,f,2164428,FALSE,high ,no,0.87,block_baldwin,1.714285714,0.487950037,8,H,296,3,Meaningless
+Many women are very conscious of their,waist,j,5023310,TRUE,low ,no,0.32,peele,1.4,0.547722558,7,LL,247,3,Switching
+The reckless driver drove too quickly around the,ledge,j,1158924,TRUE,low ,no,0.42,peele,4.2,0.447213596,8,LL,226,3,Switching
+The thief ran away after taking the woman's,friend,f,158410645,FALSE,high ,no,0.9,peele,4.75,0.5,8,H,273,3,Meaningless
+Patrick did not think Kayla was worth fighting,about,j,5933321709,TRUE,high ,no,0.8,peele,1.4,0.547722558,8,HH,82,3,Predictable
+"At the rock concert, the music was extremely",good,j,383787805,TRUE,high ,no,0.98,peele,1.833333333,0.98319208,8,HL,126,3,Switching
+"While cooking, Luke accidentally cut himself with a",iceberg,f,1226846,FALSE,high ,no,0.96,peele,4.2,0.836660027,8,H,269,3,Meaningless
+After the recital she faced the audience and took a,mountain,f,54789622,FALSE,high ,no,0.89,block_baldwin,4.142857143,1.069044968,10,H,279,3,Meaningless
+The tranquil park atmosphere was disturbed by the honking,horn,j,8051344,TRUE,low ,no,0.36,peele,4.5,1,9,LH,156,3,Predictable
+Many people will carry important items in a,envelope,j,7096675,TRUE,low ,no,0.37,peele,1.5,1,8,LL,251,3,Switching
+When Colin saw smoke he called 911 to report a,kick,f,12992179,FALSE,high ,no,0.91,block_baldwin,4,1.414213562,10,H,283,3,Meaningless
+The box landed on the ground with a dull,impact,j,61337417,TRUE,high ,no,0.85,peele,4.25,0.957427108,9,HL,97,3,Switching
+A Dalmatian dog is recognized by its black and white,book,f,345413157,FALSE,high ,no,0.84,block_baldwin,1.166666667,0.408248291,10,H,303,3,Meaningless
+The necklaces were what the thief intended to,sell,j,141076205,TRUE,high ,no,0.83,peele,2,0.707106781,8,HL,144,4,Switching
+Meg hated that cleaning the bathroom was her,chore,j,565556,TRUE,low ,no,0.47,peele,1.75,0.957427108,8,LH,184,4,Predictable
+American Presidents are limited to serving a period of eight,years,j,352363058,TRUE,high ,no,0.84,block_baldwin,1.142857143,0.377964473,10,HH,63,4,Predictable
+Jamie preferred to use cooking foil made of,aluminum,j,14118370,TRUE,high ,no,0.81,peele,1.5,1,8,HH,83,4,Predictable
+"After swallowing too quickly, Simon began to",burp,j,455109,TRUE,high ,no,0.82,peele,4,1.224744871,7,HL,102,4,Switching
+"After speaking, Allen left the noisy",room,j,179794224,TRUE,high ,no,0.81,block_baldwin,4.1,0.7,6,HH,48,4,Predictable
+Bob planned to reopen the restaurant in the,peat,f,1224073,FALSE,low ,no,0.38,peele,2,1.224744871,8,L,332,4,Meaningless
+"At the show, all the animals jumped through a",window,j,103921220,TRUE,high ,no,0.94,peele,4.2,0.836660027,9,HL,99,4,Switching
+The body builder's arm muscles were extremely,late,f,66074142,FALSE,low ,no,0.4,peele,1.6,0.547722558,7,L,341,4,Meaningless
+When she got out of the car she closed the,door,j,57202778,TRUE,high ,no,0.95,block_baldwin,4.0,1.4,10,HH,34,4,Predictable
+Paige thought the color of the wall was rather,dull,j,3216436,TRUE,low ,no,0.34,peele,1.8,0.836660027,9,LH,196,4,Predictable
+The farmer collected wood to build a new,hut,j,3475462,TRUE,low ,no,0.32,peele,4,1,8,LL,233,4,Switching
+An ulcer on the skin is a painful,injury,j,30462849,TRUE,low ,no,0.41,peele,1.8,1.095445115,8,LL,245,4,Switching
+"Instead of a purebred dog, John chose a",rescue,j,15005504,TRUE,high ,no,0.89,peele,2,1.732050808,8,HL,135,4,Switching
+Lily had disliked him from the moment they,talked,j,9614167,TRUE,high ,no,0.99,peele,1.75,0.957427108,8,HL,141,4,Switching
+"Tired of beige walls, Ingrid painted them a bold",red,j,143590165,TRUE,low ,no,0.38,peele,4.4,0.894427191,9,LH,158,4,Predictable
+The new officer was of a higher,ball,f,43872888,FALSE,high ,no,0.81,block_baldwin,1.285714286,0.755928946,7,H,291,4,Meaningless
+"After Grace slipped on the floor, she bought a",rug,j,6772818,TRUE,low ,no,0.45,peele,4,1.414213562,9,LH,168,4,Predictable
+Sam does not like desserts that are too,tart,j,1364503,TRUE,high ,no,0.86,peele,1,0,8,HL,142,4,Switching
+Some clothing types don't last long because they easily,move,f,70912501,FALSE,low ,no,0.44,peele,2,1.224744871,9,L,331,4,Meaningless
+The bride smiled as she walked down the,aisle,j,1919732,TRUE,high ,no,0.88,block_baldwin,4.3,1.1,8,HH,37,4,Predictable
+Abby stuck his picture to her wall with a,sticker,j,6647013,TRUE,low ,no,0.46,peele,4.333333333,0.577350269,9,LL,217,4,Switching
+The patient's broken arm took awhile to,X-ray,j,496284,TRUE,high ,no,0.88,peele,1.8,0.836660027,7,HL,119,4,Switching
+"Soon after Janice stepped on the wet floor, she",stumbled,j,1382824,TRUE,high ,no,0.82,peele,4.6,0.547722558,9,HL,105,4,Switching
+I roasted the marshmallow over the,fire,j,84697675,TRUE,high ,no,0.89,block_baldwin,4.1,1.5,6,HH,41,4,Predictable
+Their water source on the farm was the old,pond,j,9246183,TRUE,high ,no,0.89,peele,1.2,0.447213596,9,HL,133,4,Switching
+The elementary school girl loved to hula,dance,j,51387258,TRUE,high ,no,0.83,peele,1.8,0.836660027,7,HL,124,4,Switching
+Alexander just knew that he would win the big,match,j,54106694,TRUE,low ,no,0.32,peele,1.6,0.547722558,9,LL,246,4,Switching
+His worst fear was that the spectators would,disapprove,j,,TRUE,low ,no,0.36,peele,1.2,0.447213596,8,LL,243,4,Switching
+Some people don't enjoy food and only eat to,cut,f,61719969,FALSE,low ,no,0.38,peele,1.75,0.5,9,L,339,4,Meaningless
+"Out of habit, the family always ate dinner at",shower,f,20699522,FALSE,low ,no,0.43,peele,2,1.414213562,9,L,334,4,Meaningless
+Grandmother baked a pie and set it on the,counter,j,35538225,TRUE,low ,no,0.34,peele,4.4,0.894427191,9,LH,148,4,Predictable
+She adores rain but doesn't at all like,snow,j,35599513,TRUE,low ,no,0.42,peele,1.75,0.5,8,LH,191,4,Predictable
+His brand new soccer ball landed in the,sewer,j,5017604,TRUE,low ,yes,0.34,peele,4,1.732050808,8,LL,216,4,Switching
+The boxer knocked out his opponent with a sudden,joke,f,9058089,FALSE,low ,no,0.48,peele,4.4,1.341640786,9,L,321,4,Meaningless
+Yolanda took the wet clothes outside to,air,j,163957176,TRUE,high ,no,0.92,peele,4,0.632455532,7,HL,85,4,Switching
+He knew about the prank they were trying to,complete,j,152155277,TRUE,high ,no,0.8,peele,1.4,0.547722558,9,HL,129,4,Switching
+Andy reached the curb and told the dog to,sit,j,19887691,TRUE,low ,no,0.42,peele,4,1.414213562,9,LH,166,4,Predictable
+Jan tried to squeeze in but there was no,room,j,179794224,TRUE,high ,no,0.85,block_baldwin,4.1,0.7,9,HH,45,4,Predictable
+They were startled by the sudden,noise,j,25311298,TRUE,low ,no,0.5,block_baldwin,4,1.09544512,6,LH,174,4,Predictable
+The kitten played with the ball of,yarn,j,5119178,TRUE,high ,no,0.94,block_baldwin,4.0,1.5,7,HH,38,4,Predictable
+Charles knew that the woman was out of his,class,j,197874283,TRUE,high ,no,0.82,peele,1.25,0.5,9,HL,132,4,Switching
+The woman said she had finally found,baseball,f,35255018,FALSE,low ,no,0.36,peele,2,0.707106781,7,L,335,4,Meaningless
+Mary agreed that a popsicle would be the right,treat,j,19520487,TRUE,low ,no,0.41,peele,2,1,9,LH,190,4,Predictable
+Spring was Jo's favorite season of the,year,j,502043038,TRUE,high ,no,0.94,block_baldwin,1.428571429,1.133893419,7,HH,60,4,Predictable
+"After the engine took on water, the car began to",learn,f,181556155,FALSE,low ,yes,0.37,block_baldwin,4,0.632455532,10,L,322,4,Meaningless
+The villagers had never ventured out of the,village,j,42501329,TRUE,low ,no,0.32,peele,1.2,0.447213596,8,LH,176,4,Predictable
+"In woodshop, Alex smoothed the baseball bat with the",mob,f,3607228,FALSE,low ,no,0.32,peele,4.75,0.5,9,L,307,4,Meaningless
+The boat passed easily under the,bridge,j,35345740,TRUE,high ,no,0.89,block_baldwin,4.0,1.4,6,HH,29,4,Predictable
+The hungry owl searched the field for its,fashion,f,44137441,FALSE,low ,no,0.47,block_baldwin,4,1.095445115,8,L,324,4,Meaningless
+A stray baseball smacked an unsuspecting walker in the,stadium,j,10825324,TRUE,low ,no,0.45,peele,4.2,0.836660027,9,LL,211,4,Switching
+He climbed a ladder in order to reshingle the,roof,j,14851514,TRUE,high ,no,0.86,block_baldwin,4.1,1.5,9,HH,39,4,Predictable
+"Ellen enjoys poetry, painting, and other forms of",art,j,217809513,TRUE,high ,no,0.94,block_baldwin,1.285714286,0.487950037,8,HH,74,4,Predictable
+"Before leaving for the party, Kim dabbed on some",perfume,j,11141309,TRUE,low ,no,0.49,peele,4.2,0.836660027,9,LH,173,4,Predictable
+The fisherman easily put the bait on the,rod,j,13158826,TRUE,high ,no,0.93,peele,4.4,0.547722558,8,HL,103,4,Switching
+"When at the fair, her kids always have great",behavior,j,32311923,TRUE,low ,yes,0.45,peele,1.75,0.5,9,LL,255,4,Switching
+Spaghetti is the girl's favorite type of,table,f,168957006,FALSE,low ,no,0.49,peele,1.6,0.547722558,7,L,329,4,Meaningless
+Greg clutched his queasy stomach and began to,sweat,j,4558869,TRUE,low ,no,0.47,peele,4.75,0.5,8,LL,228,4,Switching
+He liked lemon and sugar in his,tea,j,27620523,TRUE,high ,no,0.81,block_baldwin,1.428571429,0.786795793,7,HH,79,4,Predictable
+The vacuum's defects affected its ability to,clean,j,45575150,TRUE,low ,no,0.38,peele,1,0,7,LH,183,4,Predictable
+"She didn't give him a long kiss, just a",smack,j,1453150,TRUE,high ,no,0.87,peele,4,0,9,HL,89,4,Switching
+Joan fed her baby some warm,milk,j,21054967,TRUE,high ,no,0.88,block_baldwin,4.0,1.4,6,HH,46,4,Predictable
+Rachel missed her appointment after writing down the wrong,day,j,501651226,TRUE,low ,no,0.36,peele,4,1,9,LL,212,4,Switching
+Being a father and a businessman made his role,perfect,j,60747209,TRUE,low ,no,0.31,peele,1,0,9,LL,239,4,Switching
+Karen shrieked when she discovered the dead,person,j,149556758,TRUE,low ,no,0.36,peele,4.4,0.547722558,7,LL,234,5,Switching
+George sprinted out the door because he was in a,pear,f,4333394,FALSE,high ,no,0.87,peele,4,0.816496581,10,H,268,5,Meaningless
+Jill cried and said her life had become a,glove,f,4721893,FALSE,low ,no,0.4,peele,4,0.707106781,9,L,317,5,Meaningless
+The little girl was very afraid of the,cotton,f,23426176,FALSE,high ,no,0.81,block_baldwin,1.857142857,1.069044968,8,H,290,5,Meaningless
+She graduated at the top of her,lint,f,1056974,FALSE,high ,no,0.95,block_baldwin,1.571428571,0.786795793,7,H,300,5,Meaningless
+Grace didn't like eating foods with a lot of,lipstick,f,2165534,FALSE,low ,no,0.39,peele,1.4,0.547722558,9,L,337,5,Meaningless
+Many brunettes like to dye their hair,cold,f,41281263,FALSE,high ,no,0.86,block_baldwin,1.857142857,0.899735411,7,H,298,5,Meaningless
+"Even in the most trying times, she kept her",cool,j,56934903,TRUE,low ,yes,0.5,peele,2,1.224744871,9,LH,192,5,Predictable
+None of his books made any,sense,j,53007762,TRUE,high ,no,0.87,block_baldwin,1.571428571,1.511857892,6,HH,65,5,Predictable
+Ellen replaced the fuse that no longer,worked,j,38254292,TRUE,high ,no,0.86,block_baldwin,4.1,0.9,7,HH,26,5,Predictable
+Larry's motto was always do what you,die,f,46929581,FALSE,low ,no,0.5,peele,1.25,0.5,7,L,330,5,Meaningless
+He used his skateboard to grind along the,rails,j,4370357,TRUE,low ,no,0.38,peele,4.5,0.577350269,8,LH,167,5,Predictable
+"Tired from studying, Dan crumpled his papers into a",bin,j,10379937,TRUE,high ,no,0.8,peele,4,0.707106781,9,HL,109,5,Switching
+Kennedy told her mom she felt stuck in a,loop,j,21321998,TRUE,high ,no,0.87,peele,2,1,9,HL,121,5,Switching
+The fluffy white clouds are high up in the,sky,j,27432921,TRUE,high ,no,0.93,block_baldwin,1.571428571,1.133893419,9,HH,71,5,Predictable
+His car is huge so it's too heavy to,push,j,20857011,TRUE,low ,no,0.44,peele,2,1.224744871,9,LH,181,5,Predictable
+Jeff felt like he would never finish at that,school,j,369928941,TRUE,low ,no,0.45,peele,1.333333333,0.51639778,9,LL,240,5,Switching
+The crazy old lady was thought of as a,witch,j,6682155,TRUE,low ,no,0.45,peele,1.666666667,1.211060142,9,LH,178,5,Predictable
+"During the hike, Lila's feet hurt more with each",mile,j,22290799,TRUE,high ,no,0.98,peele,4,1,9,HL,98,5,Switching
+I would drive but my car is low on,gas,j,72576719,TRUE,high ,no,0.9,block_baldwin,1.857142857,0.690065559,9,HH,72,5,Predictable
+Napa Valley in California is known for making,chardonnay,j,196301245,TRUE,high ,no,0.94,peele,1.6,0.894427191,8,HL,134,5,Switching
+The boat sailed faster after tightly pulling in the,sail,j,5233016,TRUE,low ,no,0.5,peele,4.75,0.5,9,LH,150,5,Predictable
+The strong landscaper removed the tree root with one,pull,j,19152522,TRUE,low ,yes,0.41,peele,4.2,1.303840481,9,LH,172,5,Predictable
+The academic year began in the,fall,j,66014490,TRUE,high ,no,0.82,block_baldwin,1.428571429,1.133893419,6,HH,78,5,Predictable
+Ana accidentally tripped and fell down the,stairs,j,4476933,TRUE,high ,no,0.88, ,4.3,1.5,7,HH,28,5,Predictable
+"To relax herself, she liked to listen to smooth",jazz,j,30060564,TRUE,low ,no,0.47,block_baldwin,1.833333333,0.408248291,9,LH,202,5,Predictable
+His favorite place to relax is on the,yacht,j,5944084,TRUE,low ,no,0.41,peele,1.4,0.547722558,8,LL,258,5,Switching
+"When the robber trapped Dorothy, she began to",cry,j,11664471,TRUE,low ,no,0.37,peele,4.333333333,0.816496581,8,LH,171,5,Predictable
+He wondered whether it was coincidence or,fate,j,7185303,TRUE,low ,no,0.49,block_baldwin,1.833333333,1.329160136,7,LH,204,5,Predictable
+Success is often just a matter of hard,scream,f,4315852,FALSE,high ,yes,0.93,block_baldwin,1.428571429,1.133893419,8,H,297,5,Meaningless
+The accountant ironed a shirt before going to,work,j,446236148,TRUE,high ,no,0.9,block_baldwin,4.0,1.4,8,HH,42,5,Predictable
+"After receiving a treat, the dog's tail began to",curl,j,3664177,TRUE,high ,no,0.98,peele,4.25,0.5,9,HL,88,5,Switching
+The man presented his new fiancée with an expensive,salt,f,25429464,FALSE,high ,no,0.81,block_baldwin,4,1.414213562,9,H,280,5,Meaningless
+He turned to see the dog charging like a,shirt,f,40728131,FALSE,high ,no,0.83,peele,4.4,0.547722558,9,H,271,5,Meaningless
+The gas station is about two miles down the,road,j,134754203,TRUE,high ,no,0.88,block_baldwin,1,0,9,HH,58,5,Predictable
+The boy won the chess competition by using his,brain,j,33848810,TRUE,low ,no,0.36,peele,1.75,0.957427108,9,LH,188,5,Predictable
+The woman'S shirt was so worn it had a,hole,j,26349274,TRUE,high ,no,0.86,block_baldwin,1.571428571,1.511857892,9,HH,59,5,Predictable
+The heavy box had both a large volume and,weight,j,91559349,TRUE,low ,no,0.38,peele,1.6,1.341640786,9,LH,187,5,Predictable
+The fisherman trapped hundreds of sharks in their,location,j,215178488,TRUE,high ,no,0.82,peele,4,0.816496581,8,HL,114,5,Switching
+The company said they were looking to,merge,j,5975081,TRUE,low ,no,0.37,peele,1.25,0.5,7,LL,264,5,Switching
+Eric was worried that his car didn't have enough,oil,j,83135749,TRUE,high ,no,0.86,peele,1.6,0.894427191,9,HL,130,5,Switching
+The chef wanted his steaks to have a good,texture,j,6565548,TRUE,low ,no,0.38,peele,2,1.414213562,9,LL,236,5,Switching
+When she was only twenty years old she found,freedom,j,39130223,TRUE,low ,no,0.41,peele,1.8,1.095445115,9,LL,254,5,Switching
+"Angry at the late employee, Brandon began to",increase,f,82807978,FALSE,low ,no,0.5,peele,4.166666667,1.329160136,8,L,311,5,Meaningless
+The child looked outside and watched the flying,dog,f,78051775,FALSE,low ,no,0.4,peele,4,0.707106781,8,L,309,5,Meaningless
+Delia needed her keys and rummaged around in her,apartment,j,30981707,TRUE,high ,no,0.8,peele,4,1.414213562,9,HL,113,5,Switching
+Barry said that accounting work was no,fun,j,110051463,TRUE,low ,no,0.35,peele,1.4,0.547722558,7,LH,200,5,Predictable
+The knight prepared for battle and drew his,sword,j,8865097,TRUE,high ,yes,0.91,block_baldwin,4.1,1.5,8,HH,35,5,Predictable
+That boy is always saying he'll someday be,popular,j,118978625,TRUE,low ,no,0.31,peele,2,1.732050808,8,LL,237,5,Switching
+"The mother was against swearing, calling it a",crime,j,10546819,TRUE,high ,no,0.85,peele,2,0.816496581,8,HL,115,5,Switching
+Greta quickly woke after Jess gave her a painful,squeeze,j,3020143,TRUE,low ,no,0.39,peele,4.5,0.577350269,9,LL,221,5,Switching
+"After she bought the dress, she ripped off its",lace,j,7453879,TRUE,high ,yes,0.81,peele,4.8,0.4,9,HL,92,5,Switching
+"While his parents vacationed, the kid threw a huge",fit,j,42560499,TRUE,high ,no,0.84,peele,4,0.816496581,9,HL,86,5,Switching
+Everyone thought the pasta dish needed more,marinara,j,227712,TRUE,low ,no,0.31,peele,2,0.707106781,7,LL,238,5,Switching
+Jenny was creative and loved to study,art,j,217809513,TRUE,high ,no,0.82,block_baldwin,1.571428571,0.786795793,7,HH,68,5,Predictable
+The boys ran to the car carrying their,bags,j,29998103,TRUE,low ,no,0.34,peele,4,1.154700538,8,LH,162,5,Predictable
+It seemed like the girl was always running,along,j,84317690,TRUE,low ,no,0.41,peele,1.75,0.957427108,8,LL,253,5,Switching
+After missing lunch Harry badly needed some,rest,j,53534781,TRUE,high ,no,0.84,peele,2,1.414213562,7,HL,123,5,Switching
+Surfers are scared of getting bitten by a,mirror,f,21617803,FALSE,high ,no,0.92,block_baldwin,2,1,8,H,302,5,Meaningless
+"After washing his hands, Brandon dried them with a",napkin,j,1009668,TRUE,high ,no,0.96,peele,4,0.816496581,9,HL,91,5,Switching
+Tammy was not a gambler because she had bad,luck,j,16785885,TRUE,high ,no,0.86,block_baldwin,1.857142857,1.463850109,9,HH,57,5,Predictable
+The convenience store was robbed by a small,game,f,232251956,FALSE,low ,no,0.37,peele,4,0,8,L,319,5,Meaningless
+"Hearing noises from above, the confused man inspected the",attic,j,3350414,TRUE,low ,no,0.32,peele,4.5,0.836660027,9,LH,160,5,Predictable
+He turned the page of his favorite,tiger,f,13806456,FALSE,high ,no,0.9,block_baldwin,4,1.527525232,7,H,282,5,Meaningless

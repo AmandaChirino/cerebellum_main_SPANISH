@@ -1,0 +1,100 @@
+Item,Item_original,Condition,Sentence,LastWord,original_dataset,RT_Control,RT_Patient,Gap_Cost,Selection_Criteria,number_letters,word_frequency,spelling_modified,cloze_probability,Meaningful,word_count,log_word_freq,block_order
+1,1,Practice,In the evening grandpa smokes using his,pipe,peele,none,none,none,none,4,none,no,0.96,TRUE,7,none,0
+2,7,Practice,The crime rate has gone up this,banana,block_baldwin,none,none,none,none,6,none,no,0.81,FALSE,7,none,0
+3,86,Practice,"While his parents vacationed, the kid threw a huge",fit,peele,none,none,none,none,3,none,no,0.84,TRUE,9,none,0
+4,14,Practice,Andrea watered her garden with a small,bear,peele,none,none,none,none,4,none,no,0.45,FALSE,7,none,0
+5,4,Practice,She made herself a sandwich and chips for,lunch,block_baldwin,none,none,none,none,5,none,no,0.9,TRUE,8,none,0
+6,117,Practice,The teacher was afraid of germs and getting,infected,peele,none,none,none,none,8,none,no,0.92,TRUE,8,none,0
+7,6,Practice,The janitor accidentally spilled some water on the,moon,block_baldwin,none,none,none,none,4,none,no,0.88,FALSE,8,none,0
+8,131,Practice,Claire claimed motherhood was the hardest job she ever,accomplished,peele,none,none,none,none,12,none,no,0.82,TRUE,9,none,0
+9,9,Practice,The couple's trip was ruined when it began to,rain,peele,none,none,none,none,4,none,no,0.85,TRUE,9,none,0
+11,40,Predictable,"After raking the yard, Pat jumped into the pile of",leaves,block_baldwin,0.098060754245098,0.152077676541667,0.0540169222965686,Fastest_Baseline_Ctrl,6,22697689,no,0.92,TRUE,10,7.35598164108562,1
+13,29,Predictable,The boat passed easily under the,bridge,block_baldwin,0.109169698970588,0.186308153489583,0.0771384545189951,Fastest_Baseline_Ctrl,6,35345740,no,0.89,TRUE,6,7.54833707850128,1
+15,32,Predictable,The thief ran by and snatched the lady's,purse,block_baldwin,0.128450490705882,0.205165037047059,0.0767145463411765,Fastest_Baseline_Ctrl,5,5500366,no,0.87,TRUE,8,6.7403915888564,1
+17,50,Predictable,John swept the floor with a,broom,block_baldwin,0.137212186517647,0.220337237929412,0.0831250514117647,Fastest_Baseline_Ctrl,5,1313376,no,0.9,TRUE,6,6.11838907593604,1
+19,84,Predictable,Incredibly poor food service is my pet,peeve,peele,0.1404237039625,0.24922523795,0.1088015339875,Fastest_Baseline_Ctrl,5,213863,no,0.96,TRUE,7,5.33013565467076,1
+21,33,Predictable,She threw away the old paper in the,trash,block_baldwin,0.14824137525,0.240765911942857,0.0925245366928572,Fastest_Baseline_Ctrl,5,7109005,no,0.89,TRUE,8,6.85180881968212,1
+23,81,Predictable,The store employees knew it was illegal to,steal,block_baldwin,0.154251695294118,0.212384705,0.0581330097058824,Fastest_Baseline_Ctrl,5,6267924,no,0.87,TRUE,8,6.79712372190939,1
+25,67,Predictable,Drivers should keep your eyes on the,road,block_baldwin,0.157670372632353,0.203895848233333,0.0462254756009804,Fastest_Baseline_Ctrl,4,134754203,yes,0.92,TRUE,7,8.1295423197678,1
+27,65,Predictable,None of his books made any,sense,block_baldwin,0.158887068741177,0.23371021228,0.0748231435388235,Fastest_Baseline_Ctrl,5,53007762,no,0.87,TRUE,6,7.72433946859979,1
+29,39,Predictable,He climbed a ladder in order to reshingle the,roof,block_baldwin,0.161342948588235,0.286557824546875,0.12521487595864,Fastest_Baseline_Ctrl,4,14851514,no,0.86,TRUE,9,7.17177072896163,1
+31,53,Predictable,The maid dusted the books on the,shelf,block_baldwin,0.165394905564706,0.205370349917647,0.0399754443529412,Fastest_Baseline_Ctrl,5,11330977,no,0.93,TRUE,7,7.05426735800247,1
+33,80,Predictable,The expensive tie was made of,silk,block_baldwin,0.165513904161765,0.240419575588235,0.0749056714264706,Fastest_Baseline_Ctrl,4,13137405,no,0.89,TRUE,6,7.11850958855105,1
+35,38,Predictable,The kitten played with the ball of,yarn,block_baldwin,0.1667774635,0.22586257846875,0.05908511496875,Fastest_Baseline_Ctrl,4,5119178,no,0.94,TRUE,7,6.7092002307563,1
+37,54,Predictable,"After driving over sharp glass, Ronald had a flat",tire,peele,0.174556282588235,0.266516629783333,0.091960347195098,Fastest_Baseline_Ctrl,4,9208689,no,1,TRUE,9,6.96419780602828,1
+39,59,Predictable,The woman's shirt was so worn it had a,hole,block_baldwin,0.179774185235294,0.332987992125,0.153213806889706,Fastest_Baseline_Ctrl,4,26349274,no,0.86,TRUE,9,7.42076865362304,1
+41,269,Meaningless,"While cooking, Luke accidentally cut himself with a",iceberg,peele,0.131889700848739,0.1574829275,0.0255932266512605,Median_Control,7,1226846,no,0.96,FALSE,8,6.0887900512782,1
+43,290,Meaningless,The little girl was very afraid of the,cotton,block_baldwin,0.137256691845238,0.1985181186,0.0612614267547619,Median_Control,6,23426176,no,0.81,FALSE,8,7.36970140180063,1
+45,295,Meaningless,The landlord did not like when the rent was,boring,block_baldwin,0.150438585125,0.185688727039216,0.0352501419142157,Median_Control,6,6610108,no,0.8,FALSE,9,6.82020855531331,1
+47,300,Meaningless,She graduated at the top of her,lint,block_baldwin,0.175506507147059,0.243250056083333,0.0677435489362745,Median_Control,4,1056974,no,0.95,FALSE,7,6.02406430443571,1
+49,274,Meaningless,"In the courtroom, the defendant was silenced by the",apple,peele,0.1800820290375,0.212360239,0.0322782099625,Median_Control,5,50913495,no,0.85,FALSE,9,7.7068329105733,1
+51,282,Meaningless,He turned the page of his favorite,tiger,block_baldwin,0.187618818517647,0.2274645858,0.039845767282353,Median_Control,5,13806456,no,0.9,FALSE,7,7.14008221317899,1
+53,271,Meaningless,He turned to see the dog charging like a,shirt,peele,0.196444648213333,0.198325929835294,0.00188128162196077,Median_Control,5,40728131,no,0.83,FALSE,9,7.60989448091805,1
+55,280,Meaningless,The man presented his new fiancée with an expensive,salt,block_baldwin,0.202705828359375,0.273113757852941,0.0704079294935662,Median_Control,4,25429464,no,0.81,FALSE,9,7.40533720625139,1
+57,303,Meaningless,A Dalmatian dog is recognized by its black and white,book,block_baldwin,0.20318369225,0.2644683835,0.06128469125,Median_Control,4,345413157,no,0.84,FALSE,10,8.53833887609094,1
+59,275,Meaningless,"After saying goodbye, Tim gave his wife a quick",shave,peele,0.204134933705882,0.228315286814286,0.0241803531084034,Median_Control,5,2583608,no,0.84,FALSE,9,6.41222662064216,1
+61,268,Meaningless,George sprinted out the door because he was in a,pear,peele,0.209218266367647,0.251857181616667,0.0426389152490196,Median_Control,4,4333394,no,0.87,FALSE,10,6.63682817766736,1
+63,270,Meaningless,The cop entered the building and showed his,tour,peele,0.2225316561875,0.291342362828125,0.068810706640625,Median_Control,4,75960822,no,0.92,FALSE,8,7.88058965575077,1
+65,291,Meaningless,The new officer was of a higher,ball,block_baldwin,0.227871669875,0.296478355234375,0.068606685359375,Median_Control,4,43872888,no,0.81,FALSE,7,7.64219622344487,1
+67,276,Meaningless,The infant cried when she got stung by a,die,peele,0.243816699764706,0.315527602196078,0.0717109024313726,Median_Control,3,46929581,no,0.9,FALSE,9,7.67144667673113,1
+69,281,Meaningless,The farmer spends the morning milking his,act,block_baldwin,0.259514410125,0.351444573392157,0.0919301632671569,Median_Control,3,144298238,yes,0.94,FALSE,7,8.15926102803355,1
+71,118,Switching,"Married to a duchess, Max earned the title of",earl,peele,0.236817263910714,0.416008353104167,0.179191089193452,Biggest Gap,4,7098366,no,0.88,TRUE,9,6.85115838831707,1
+73,142,Switching,Sam does not like desserts that are too,tart,peele,0.201511265897059,0.368318097,0.166806831102941,Biggest Gap,4,1364503,no,0.86,TRUE,8,6.13497449484799,1
+75,102,Switching,"After swallowing too quickly, Simon began to",burp,peele,0.210176546544118,0.341385575384615,0.131209028840498,Biggest Gap,4,455109,no,0.82,TRUE,7,5.65811542397418,1
+77,128,Switching,Chris said his dog had always been his best,pal,peele,0.298277399479167,0.427243341078431,0.128965941599265,Biggest Gap,3,10016948,no,0.95,TRUE,9,7.00073541926952,1
+79,107,Switching,Paulina gave the huge lollipop a big,bite,peele,0.215430432823529,0.330156042982143,0.114725610158613,Biggest Gap,4,6067411,no,0.88,TRUE,7,6.78300341458908,1
+81,119,Switching,The patient's broken arm took a while to,xray,peele,0.255740996983333,0.358058387359375,0.102317390376042,Biggest Gap,4,496284,no,0.88,TRUE,8,5.69573027394058,1
+83,141,Switching,Lily had disliked him from the moment they,talked,peele,0.15754278154902,0.2549425813,0.0973997997509804,Biggest Gap,6,9614167,no,0.99,TRUE,8,6.98291166163999,1
+85,122,Switching,It was announced that the two companies would,compete,peele,0.141250748,0.232610923630952,0.0913601756309524,Biggest Gap,7,9274206,yes,0.96,TRUE,9,6.96727673827853,1
+87,132,Switching,Charles knew that the woman was out of his,class,peele,0.150491154364706,0.240940106025,0.0904489516602941,Biggest Gap,5,197874283,no,0.82,TRUE,9,8.29638935420164,1
+89,125,Switching,Chocolate is made from the roasted cacao,seeds,peele,0.19178810525,0.2680188914,0.07623078615,Biggest Gap,5,11239247,no,0.84,TRUE,7,7.05073721561921,1
+91,133,Switching,Their water source on the farm was the old,pond,peele,0.211039863779412,0.283729421779412,0.072689558,Biggest Gap,4,9246183,no,0.89,TRUE,9,6.96596248472219,1
+93,136,Switching,Steven had been raised believing that lying was a,crime,peele,0.224441910494118,0.293068068753846,0.0686261582597285,Biggest Gap,5,40638766,no,0.91,TRUE,9,7.60894051208277,1
+95,129,Switching,He knew about the prank they were trying to,complete,peele,0.126367078464286,0.189965289145833,0.0635982106815476,Biggest Gap,8,152155277,no,0.8,TRUE,9,8.18228701901584,1
+97,98,Switching,"During the hike, Lila's feet hurt more with each",mile,peele,0.20819653209375,0.26655533675,0.05835880465625,Biggest Gap,4,22290799,no,0.98,TRUE,9,7.34812563577822,1
+99,139,Switching,Suzy saw a sign that said babysitter for,weekends,peele,0.155451237515625,0.210188494598214,0.0547372570825893,Biggest Gap,8,9954499,no,0.88,TRUE,8,6.9980194073056,1
+10,83,Predictable,Jamie preferred to use cooking foil made of,aluminum,peele,0.0933017075661765,0.130127412133929,0.0368257045677521,Fastest_Baseline_Ctrl,8,14118370,no,0.81,TRUE,8,7.14978455926052,2
+12,28,Predictable,Ana accidentally tripped and fell down the,stairs,block_baldwin,0.101705468372549,0.158452124666667,0.0567466562941177,Fastest_Baseline_Ctrl,6,4476933,no,0.88,TRUE,7,6.65098059495347,2
+14,26,Predictable,Ellen replaced the fuse that no longer,worked,block_baldwin,0.126432735009804,0.164603849697917,0.0381711146881127,Fastest_Baseline_Ctrl,6,38254292,no,0.86,TRUE,7,7.58268016857057,2
+16,64,Predictable,George must keep his pet on a,leash,block_baldwin,0.132891327682353,0.2091265331125,0.0762352054301471,Fastest_Baseline_Ctrl,5,1311597,no,0.9,TRUE,7,6.11780041464193,2
+18,35,Predictable,The knight prepared for battle and drew his,sword,block_baldwin,0.137699406906667,0.2053106076625,0.0676112007558334,Fastest_Baseline_Ctrl,5,8865097,yes,0.91,TRUE,8,6.9476834919205,2
+20,37,Predictable,The bride smiled as she walked down the,aisle,block_baldwin,0.141257656905882,0.212189027671429,0.0709313707655462,Fastest_Baseline_Ctrl,5,1919732,no,0.88,TRUE,8,6.28324060420093,2
+22,55,Predictable,Although Keith bowled well he did not have the highest,score,block_baldwin,0.152581992541176,0.228204420835294,0.0756224282941177,Fastest_Baseline_Ctrl,5,69946284,no,0.94,TRUE,10,7.84476464690272,2
+24,52,Predictable,The librarian sternly told us to be,quiet,block_baldwin,0.154765142117647,0.22519128044,0.0704261383223529,Fastest_Baseline_Ctrl,5,16787246,no,0.8,TRUE,7,7.22497945461896,2
+26,45,Predictable,Jan tried to squeeze in but there was no,room,block_baldwin,0.158739717147059,0.241060894333333,0.0823211771862745,Fastest_Baseline_Ctrl,4,179794224,no,0.85,TRUE,9,8.25477573564404,2
+28,63,Predictable,American Presidents are limited to serving a period of eight,years,block_baldwin,0.159662789746667,0.215102777986667,0.05543998824,Fastest_Baseline_Ctrl,5,352363058,no,0.84,TRUE,10,8.5469903703764,2
+30,75,Predictable,The shape of the woman's crystal ball was,round,block_baldwin,0.164925868564706,0.24060404095,0.0756781723852941,Fastest_Baseline_Ctrl,5,62452044,no,0.82,TRUE,8,7.7955466570159,2
+32,47,Predictable,"After hitting the iceberg, the ship began to",sink,block_baldwin,0.165464840640625,0.247477585985294,0.0820127453446691,Fastest_Baseline_Ctrl,4,8133475,no,0.96,TRUE,8,6.91027613610871,2
+34,58,Predictable,The gas station is about two miles down the,road,block_baldwin,0.166652988529412,0.224949918691177,0.0582969301617647,Fastest_Baseline_Ctrl,4,134754203,no,0.88,TRUE,9,8.1295423197678,2
+36,27,Predictable,"When the two met, one of them held out his",hand,block_baldwin,0.167034615235294,0.247577616132353,0.0805430008970588,Fastest_Baseline_Ctrl,4,123595776,no,0.95,TRUE,10,8.09200362859067,2
+38,42,Predictable,The accountant ironed a shirt before going to,work,block_baldwin,0.17615300375,0.274771798484375,0.098618794734375,Fastest_Baseline_Ctrl,4,446236148,no,0.9,TRUE,8,8.64956474802101,2
+40,302,Meaningless,Surfers are scared of getting bitten by a,mirror,block_baldwin,0.1278520601,0.171262312137255,0.0434102520372549,Median_Control,6,21617803,no,0.92,FALSE,8,7.33481155485968,2
+42,294,Meaningless,"To prevent football injury, all players must wear shoulder",mistake,block_baldwin,0.132428636571429,0.185322917017857,0.0528942804464286,Median_Control,7,10869967,no,0.96,FALSE,9,7.03622822561898,2
+44,297,Meaningless,Success is often just a matter of hard,scream,block_baldwin,0.148017868822222,0.17516699225,0.0271491234277778,Median_Control,6,4315852,yes,0.93,FALSE,8,6.63506654335902,2
+46,288,Meaningless,During the holidays it is very expensive to book a,snake,block_baldwin,0.159005950026667,0.197491121564706,0.0384851715380392,Median_Control,5,7615672,yes,0.81,FALSE,10,6.88170823111466,2
+48,304,Meaningless,The directions did not match any roads on the,anger,block_baldwin,0.1758204916,0.22157375645,0.04575326485,Median_Control,5,8002746,no,0.85,FALSE,9,6.9032390329943,2
+50,299,Meaningless,The baby bird was ready to learn to,drive,block_baldwin,0.1854554889625,0.261179822615385,0.0757243336528846,Median_Control,5,109504766,no,0.91,FALSE,8,8.03943302148168,2
+52,293,Meaningless,He had a long day and was in a bad,bake,block_baldwin,0.194535120588235,0.301009320308823,0.106474199720588,Median_Control,4,3793474,no,0.95,FALSE,10,6.57903711180981,2
+54,298,Meaningless,Many brunettes like to dye their hair,cold,block_baldwin,0.200908884421875,0.2809298599375,0.080020975515625,Median_Control,4,41281263,no,0.86,FALSE,7,7.61575297605955,2
+56,283,Meaningless,When Colin saw smoke he called 911 to report a,kick,block_baldwin,0.202779785366667,0.266441697558824,0.0636619121921569,Median_Control,4,12992179,no,0.91,FALSE,10,7.11368199543903,2
+58,285,Meaningless,The building isn't for sale but it's available to,kill,peele,0.203262809033333,0.292713889897059,0.0894510808637255,Median_Control,4,24970551,no,0.81,FALSE,9,7.39742812559602,2
+60,265,Meaningless,The boy screamed after he was stung by a,tone,peele,0.2083363834375,0.24835382571875,0.04001744228125,Median_Control,4,17489966,no,0.81,FALSE,9,7.24278896522329,2
+62,267,Meaningless,"When Jen showed the treat, Maggie's tail began to",hold,peele,0.219460214890625,0.315511666375,0.096051451484375,Median_Control,4,64197954,no,0.96,FALSE,9,7.80752118724846,2
+64,287,Meaningless,I had no key to open the locked,loss,block_baldwin,0.22438460871875,0.291850558205882,0.0674659494871324,Median_Control,4,83845349,no,0.89,FALSE,8,7.92347897678519,2
+66,278,Meaningless,Jenny lit the candles on the birthday,bath,block_baldwin,0.240166054367647,0.2721483074375,0.031982253069853,Median_Control,4,30641959,no,0.94,FALSE,7,7.48631652713855,2
+68,286,Meaningless,The castle was protected by its stone,fans,block_baldwin,0.256822770078125,0.308918309153846,0.0520955390757212,Median_Control,4,29390369,no,0.86,FALSE,7,7.46820503873195,2
+70,103,Switching,The fisherman easily put the bait on the,rod,peele,0.286859822125,0.467250376666667,0.180390554541667,Biggest Gap,3,13158826,no,0.93,TRUE,8,7.11921714425777,2
+72,138,Switching,Our walk was illuminated by the light of the,sun,peele,0.2730051366875,0.4506953524,0.1776902157125,Biggest Gap,3,123311561,no,0.84,TRUE,9,8.09100379551814,2
+74,130,Switching,Eric was worried that his car didn't have enough,oil,peele,0.266981060588235,0.419547459125,0.152566398536765,Biggest Gap,3,83135749,no,0.86,TRUE,9,7.91978781385504,2
+76,104,Switching,The gentleman on the bus offered the child his,snack,peele,0.202235040494118,0.333052944846154,0.130817904352036,Biggest Gap,5,3851856,no,0.9,TRUE,9,6.58567004284129,2
+78,112,Switching,"After weeks at sea, the bottle washed up onto the",rocks,peele,0.168907260623529,0.2838835533125,0.114976292688971,Biggest Gap,5,12463155,yes,0.83,TRUE,10,7.09562799622728,2
+80,123,Switching,After missing lunch Harry badly needed some,rest,peele,0.208975071014706,0.317479791166667,0.108504720151961,Biggest Gap,4,53534781,no,0.84,TRUE,7,7.72863603040378,2
+82,140,Switching,Kelly believed that everything was determined by,looks,peele,0.186868848875,0.28839014985,0.101521300975,Biggest Gap,5,44159268,no,0.83,TRUE,7,7.64502186575838,2
+84,127,Switching,Ollie was tired of the radio playing the same,songs,peele,0.145027782152941,0.238787612470588,0.0937598303176471,Biggest Gap,5,49747608,no,0.84,TRUE,9,7.69677220352646,2
+86,126,Switching,"At the rock concert, the music was extremely",good,peele,0.231615949161765,0.322640226515625,0.0910242773538603,Biggest Gap,4,383787805,no,0.98,TRUE,8,8.58409117075028,2
+88,91,Switching,"After washing his hands, Brandon dried them with a",napkin,peele,0.144825365333333,0.221738908066667,0.0769135427333333,Biggest Gap,6,1009668,no,0.96,TRUE,9,6.00417859212814,2
+90,137,Switching,Daniel was upset that his basketball team didn't,compete,peele,0.123079094205357,0.198152746409524,0.0750736522041667,Biggest Gap,7,9274206,no,0.91,TRUE,8,6.96727673827853,2
+92,124,Switching,The elementary school girl loved to hula,dance,peele,0.154690509270588,0.227254141775,0.0725636325044118,Biggest Gap,5,51387258,no,0.83,TRUE,7,7.71085544455343,2
+94,101,Switching,The little girl tripped and immediately began to,bleed,peele,0.164552788364706,0.228640881983333,0.0640880936186274,Biggest Gap,5,1991022,no,0.9,TRUE,8,6.29907605883495,2
+96,144,Switching,The necklaces were what the thief intended to,sell,peele,0.284891528316667,0.34488738,0.0599958516833333,Biggest Gap,4,141076205,no,0.83,TRUE,8,8.14945376847684,2
+98,105,Switching,"Soon after Janice stepped on the wet floor, she",stumbled,peele,0.0985173044705882,0.154846312133333,0.0563290076627451,Biggest Gap,8,1382824,no,0.82,TRUE,9,6.14076690845868,2
