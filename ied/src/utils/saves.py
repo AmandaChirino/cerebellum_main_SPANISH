@@ -21,7 +21,9 @@ COLUMNS = [
     "task",
     "participant_id",
     "language",
-    "group",
+    "location",      # USA / MEX / NA (derived from PID[0])
+    "group",         # Pilot / Ctrl / Pat (derived from cfg.GROUP)
+    "group_det",     # Pilot / Control / CD / Stroke / Tumor / Other
     "session",
     "dominant_hand",
     "hand_used",
@@ -69,6 +71,40 @@ def _language_from_pid(pid: str | None) -> str:
     if first in ("M", "m"):
         return "Espanol"
     return "NA"
+
+
+def _location_from_pid(pid: str | None) -> str:
+    """Derive location from first char of PID: U/u -> USA, M/m -> MEX, else NA."""
+    if not pid:
+        return "NA"
+    first = str(pid)[0]
+    if first in ("U", "u"):
+        return "USA"
+    if first in ("M", "m"):
+        return "MEX"
+    return "NA"
+
+
+def _group_label(group) -> str:
+    """Abbreviated group label: Pilot / Ctrl / Pat."""
+    try:
+        g = int(group)
+    except (TypeError, ValueError):
+        return "NA"
+    if g == 1:
+        return "Pilot"
+    if g == 2:
+        return "Ctrl"
+    return "Pat"
+
+
+def _group_det_label(group) -> str:
+    """Detailed group label from numeric group (1-6)."""
+    _MAP = {1: "Pilot", 2: "Control", 3: "CD", 4: "Stroke", 5: "Tumor", 6: "Other"}
+    try:
+        return _MAP.get(int(group), "NA")
+    except (TypeError, ValueError):
+        return "NA"
 
 
 STIMULUS_FEATURES = {
@@ -271,7 +307,9 @@ def update_save(
         "task": "ied",
         "participant_id": cfg.PID,
         "language": _language_from_pid(cfg.PID),
-        "group": cfg.GROUP or "",
+        "location": _location_from_pid(cfg.PID),
+        "group": _group_label(cfg.GROUP),
+        "group_det": _group_det_label(cfg.GROUP),
         "session": cfg.SESSION or "",
         "dominant_hand": cfg.dominant_hand,
         "hand_used": cfg.hand_used,

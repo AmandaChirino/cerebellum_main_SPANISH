@@ -28,7 +28,9 @@ COLUMNS = [
     "participant_id",
     # New columns inserted immediately after participant_id per spec
     "language",       # from PID[0]: U/u -> English; M/m -> Spanish; else NA
-    "group",          # cfg.GROUP after admin
+    "location",       # USA / MEX / NA (derived from PID[0])
+    "group",          # Pilot / Ctrl / Pat (derived from cfg.GROUP)
+    "group_det",      # Pilot / Control / CD / Stroke / Tumor / Other
     "session",        # cfg.SESSION after admin
     # Keep existing dominant_hand and hand_used without duplication
     "dominant_hand",  # cfg.DH
@@ -74,6 +76,42 @@ def _language_from_pid(pid: str | None) -> str:
     if c in ("M", "m"):
         return "Spanish"
     return NA_STR
+
+
+def _location_from_pid(pid: str | None) -> str:
+    """Derive location from first char of PID: U/u -> USA, M/m -> MEX, else NA."""
+    if not pid:
+        return NA_STR
+    first = str(pid)[0]
+    if first in ("U", "u"):
+        return "USA"
+    if first in ("M", "m"):
+        return "MEX"
+    return NA_STR
+
+
+def _group_label(group) -> str:
+    """Abbreviated group label: Pilot / Ctrl / Pat."""
+    try:
+        g = int(group)
+    except (TypeError, ValueError):
+        return NA_STR
+    if g == 1:
+        return "Pilot"
+    if g == 2:
+        return "Ctrl"
+    return "Pat"
+
+
+def _group_det_label(group) -> str:
+    """Detailed group label from numeric group (1-6)."""
+    _MAP = {1: "Pilot", 2: "Control", 3: "CD", 4: "Stroke", 5: "Tumor", 6: "Other"}
+    try:
+        return _MAP.get(int(group), NA_STR)
+    except (TypeError, ValueError):
+        return NA_STR
+
+
 def _today_yyyymmdd() -> str:
     """
     Get today's local date string in YYYY_MM_DD format.
@@ -218,7 +256,9 @@ def update_save(
         "task": TASK_NAME,
         "participant_id": cfg.PID,
         "language": _language_from_pid(cfg.PID),
-        "group": cfg.GROUP or "",
+        "location": _location_from_pid(cfg.PID),
+        "group": _group_label(cfg.GROUP),
+        "group_det": _group_det_label(cfg.GROUP),
         "session": cfg.SESSION or "",
         "dominant_hand": cfg.DH,
         "hand_used": cfg.UH,
