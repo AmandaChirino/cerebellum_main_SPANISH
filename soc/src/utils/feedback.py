@@ -63,11 +63,11 @@ def _draw_feedback_image(screen: pygame.Surface, img: pygame.Surface) -> None:
     screen.blit(scaled, _feedback_anchor(screen, scaled))
 
 def _draw_too_slow(screen: pygame.Surface, font_name: str = None) -> None:
-    """Render 'Too Slow' in yellow text (instead of using an image)."""
+    """Render 'Muy lento' in yellow text (instead of using an image)."""
     sw, sh = screen.get_size()
     font = pygame.font.SysFont(font_name, max(18, int(sh * 0.06)))
     yellow = getattr(cfg, "YELLOW_RGB", (255, 255, 0))
-    text = font.render("Too Slow", True, yellow)
+    text = font.render("Muy lento", True, yellow)
     screen.blit(text, _feedback_anchor(screen, text))
 
 def _blit_lower_center(screen: pygame.Surface, surf: pygame.Surface, max_px: int = 400) -> None:

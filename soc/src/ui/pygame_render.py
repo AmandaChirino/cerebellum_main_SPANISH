@@ -515,7 +515,7 @@ def show_feedback(screen: pygame.Surface, status: bool) -> None:
 
     if status == "timeout":
         font = pygame.font.SysFont(None, cfg.FONT_SIZE)
-        text_surf = font.render("Too late!", True, cfg.YELLOW_RGB)
+        text_surf = font.render("Muy lento", True, cfg.YELLOW_RGB)
         text_rect = text_surf.get_rect(center=center)
         box_w = text_rect.width + pad * 2
         box_h = text_rect.height + pad * 2

@@ -425,12 +425,12 @@ def _show_interval_feedback(screen: pygame.Surface, correct_cnt: int, is_last: b
         screen.fill(cfg.BLACK_RGB)
         font = pygame.font.SysFont(None, int(cfg.FONT_LARGE))
         font_small = pygame.font.SysFont(None, int(cfg.FONT_SMALL))
-        cnt_text = f"Correct trials: {correct_cnt}"
+        cnt_text = f"Ensayos correctos: {correct_cnt}"
         cnt_surf = font.render(cnt_text, True, cfg.COCO_RGB)
         center = screen.get_rect().center
         cnt_rect = cnt_surf.get_rect(center=(center[0], center[1]))
         screen.blit(cnt_surf, cnt_rect)
-        bottom_msg = (f"this block will end in {remaining_sec} s." if is_last else f"the next round begins in {remaining_sec} s.")
+        bottom_msg = (f"este bloque termina en {remaining_sec} s." if is_last else f"la siguiente ronda comienza en {remaining_sec} s.")
         bottom_surf = font_small.render(bottom_msg, True, cfg.COCO_RGB)
         br = bottom_surf.get_rect()
         br.midbottom = (center[0], screen.get_height() - 40)

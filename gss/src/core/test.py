@@ -430,8 +430,8 @@ def _show_block_intro(screen: pygame.Surface, label: str) -> None:
         font_body = pygame.font.Font(None, cfg.FONT_SMALL)
 
     seq = cfg.task_sequence if cfg.task_sequence else ("S", "A", "V", "V")
-    seq_text = "Task sequence: " + " ".join(seq)
-    title_text = f"Current block: {label}"
+    seq_text = "Secuencia de la tarea: " + " ".join(seq)
+    title_text = f"Bloque actual: {label}"
 
     title_surf = font_title.render(title_text, True, cfg.COCO_RGB)
     seq_surf = font_body.render(seq_text, True, cfg.COCO_RGB)
