@@ -428,7 +428,7 @@ def _show_interval_feedback(screen: pygame.Surface, correct_cnt: int, total_cnt:
         total_text = f"Ensayos completados: {total_cnt}"
         cnt_surf = font_normal.render(cnt_text, True, cfg.COCO_RGB)
         total_surf = font_normal.render(total_text, True, cfg.COCO_RGB)
-        secondary_alpha = int(255 * 0.05) # 30% opacity for secondary text
+        secondary_alpha = int(255 * 0.3) # 30% opacity for secondary text
         if goal == "S":
             total_surf.set_alpha(255)
             cnt_surf.set_alpha(secondary_alpha)
