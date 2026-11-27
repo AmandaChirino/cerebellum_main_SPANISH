@@ -1,0 +1,11 @@
+{
+  "screen_w": 1920,
+  "screen_h": 1080,
+  "refresh_hz": null,
+  "display_index": 0,
+  "n_displays": 2,
+  "os": "Darwin",
+  "os_version": "26.6.2",
+  "pygame_version": "2.6.1",
+  "sdl_version": "2.28.4"
+}
