@@ -8,6 +8,7 @@ This module handles creation of participant-specific result files and appends on
 
 import csv
 import datetime
+from pathlib import Path
 
 import utils.config as cfg
 from utils.paths import RESULTS_DIR
@@ -15,6 +16,8 @@ from utils.logger import get_logger
 
 
 logger = get_logger("./src/utils/saves")    # create logger
+
+_current_results_path: Path | None = None   # results file of this run (set by create_save)
 
 
 COLUMNS = [
@@ -92,6 +95,14 @@ def _location_from_pid(pid: str | None) -> str:
     return "NA"
 
 
+def _results_path() -> Path:
+    """Results file of this run; before create_save, the unversioned file for today's date."""
+    if _current_results_path is not None:
+        return _current_results_path
+    date_str = datetime.datetime.now().strftime("%Y_%m_%d")
+    return RESULTS_DIR / f"{cfg.PID}_nBack_results_{date_str}.csv"
+
+
 def create_save() -> None:
     """
     Create a new results CSV for the current participant, writing the header row if the file does not exist.
@@ -99,12 +110,13 @@ def create_save() -> None:
     File path rules:
     - Output directory: RESULTS_DIR
     - File name pattern: "{cfg.PID}_nBack_results_YYYY_MM_DD.csv"
-    - If file exists, creates a versioned file: "{cfg.PID}_v2_nBack_results_YYYY_MM_DD.csv", "_v3", etc.
+    - If file exists, adds a version suffix after the date (same naming as ET):
+      "{cfg.PID}_nBack_results_YYYY_MM_DD_v02.csv", "_v03", etc.
 
     Side effects:
     - Creates a CSV file if missing.
     - Writes a single header row using COLUMNS.
-    - Updates cfg.PID if a version suffix is added (e.g., "amanda023" -> "amanda023_v2")
+    - Stores the path in _current_results_path (cfg.PID is not changed)
 
     :return: None
     """
@@ -120,14 +132,14 @@ def create_save() -> None:
     if csv_path.exists():
         version = 2
         while True:
-            versioned_pid = f"{base_pid}_v{version}"
-            csv_path = RESULTS_DIR / f"{versioned_pid}_nBack_results_{date_str}.csv"
+            csv_path = RESULTS_DIR / f"{base_pid}_nBack_results_{date_str}_v{version:02d}.csv"
             if not csv_path.exists():
-                # Update PID to include version suffix
-                cfg.PID = versioned_pid
-                logger.info(f"File already exists for {base_pid}. Using versioned ID: {cfg.PID}")
+                logger.info(f"File already exists for {base_pid}. Using version v{version:02d}")
                 break
             version += 1
+
+    global _current_results_path
+    _current_results_path = csv_path
 
     # Create the file with header
     with csv_path.open("w", newline="", encoding="utf-8") as f:
@@ -195,13 +207,13 @@ def update_save(
 
     :return: None
     """    
-    # Get current date for filename (same as used in create_save)
-    date_str = datetime.datetime.now().strftime("%Y_%m_%d")
-    csv_path = RESULTS_DIR / f"{cfg.PID}_nBack_results_{date_str}.csv"
+    # Results file of this run (same file as created by create_save)
+    csv_path = _results_path()
 
     # Ensure file exists with header
     if not csv_path.exists():
         create_save()
+        csv_path = _results_path()
 
     # Count existing trials (exclude header)
     with csv_path.open("r", newline="", encoding="utf-8") as rf:
@@ -257,8 +269,7 @@ def finalize_experiment(global_end_time: str) -> None:
     """
     Update all rows with the final global end time.
     """
-    date_str = datetime.datetime.now().strftime("%Y_%m_%d")
-    csv_path = RESULTS_DIR / f"{cfg.PID}_nBack_results_{date_str}.csv"
+    csv_path = _results_path()
     if not csv_path.exists():
         return
 

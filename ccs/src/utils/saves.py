@@ -117,7 +117,7 @@ def create_save() -> None:
     Filename format:
     - {PID}_{TASK_NAME}_results_YYYY_MM_DD.csv
     - If the file exists, increment with a suffix:
-      {PID}_{TASK_NAME}_results_YYYY_MM_DD_2.csv, _3, ...
+      {PID}_{TASK_NAME}_results_YYYY_MM_DD_v02.csv, _v03, ... (same naming as ET)
 
     :return: None
     """
@@ -133,7 +133,7 @@ def create_save() -> None:
         base_pid = cfg.PID or "unknown"
         counter = 2
         while True:
-            stem = f"{base_pid}_{TASK_NAME}_results_{date_str}_{counter}.csv"
+            stem = f"{base_pid}_{TASK_NAME}_results_{date_str}_v{counter:02d}.csv"
             candidate = RESULTS_DIR / stem
             if not candidate.exists():
                 csv_path = candidate

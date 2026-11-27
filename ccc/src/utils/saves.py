@@ -123,7 +123,7 @@ def create_save() -> None:
         counter = 2
         while True:
             suffix = _version_suffix(counter)
-            candidate = RESULTS_DIR / f"{base_pid}_{TASK_NAME}_results_{suffix}_{date_str}.csv"
+            candidate = RESULTS_DIR / f"{base_pid}_{TASK_NAME}_results_{date_str}_{suffix}.csv"
             if not candidate.exists():
                 csv_path = candidate
                 break
