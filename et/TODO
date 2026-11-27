@@ -1,0 +1,40 @@
+[./src/utils/config.py]
+1. Select [test] or [actual] mode (line 12)
+2. Add additional instructions configurations if necessary (line 44)
+3. Add additional stimuli configurations if necessary (line 51)
+4. Add additional feedback configurations if necessary (line 64)
+5. Select one of the two js_modes (line 81)
+
+[./src/utils/logger.py]
+1. Replace [template] with the actual project name (line 28)
+
+[./src/utils/paths.py]
+1. Add additional paths if necessary (line 28)
+2. Load additional instructions configurations if necessary (line 43)
+3. Load additional stimuli configurations if necessary (line 54)
+
+[./src/utils/event_handler.py]
+1. Add additional input mappings and proper docstrings if necessary (line 110)
+
+[./src/core/experiment_flow.py]
+1. Load additional instructions configurations if necessary (line 30)
+2. Load additional stimuli configurations if necessary (line 32)
+
+[./src/core/practice.py]
+1. Modify block design based on needs (Line 9)
+2. Modify saved items based on needs (Line 143)
+
+[./src/core/test.py]
+1. Modify block design based on needs (Line 9)
+2. Modify saved items based on needs (Line 142)
+
+[./src/core/saves.py]
+1. Replace with proper phase configuration (Line 26)
+2. Replace with proper condition configuration (Line 28)
+3. Replace with proper difficulty configuration (Line 30)
+4. Add additional items if necessary (Line 36)
+5. Replace [template] with the actual project name (Line 55 / 105)
+6. Modify saved items based on needs (Line 67)
+
+[./src/core/experiment_flow.py]
+1. Modify test flow based on needs (Line 149)
